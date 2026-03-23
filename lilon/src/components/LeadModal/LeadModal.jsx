@@ -50,8 +50,7 @@ const LeadModal = ({ isOpen, onClose }) => {
       className="lead-modal-overlay"
       onClick={handleBackdropClick}
       style={{
-        visibility: isOpen ? 'visible' : 'hidden',
-        pointerEvents: isOpen ? 'auto' : 'none',
+        display: isOpen ? 'flex' : 'none',
         opacity: isOpen ? 1 : 0,
         transition: 'opacity 0.2s ease-in-out',
       }}
