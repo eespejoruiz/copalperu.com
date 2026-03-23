@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "Copal Perú - Resina de Copal Negro Amazónico Premium | Incienso Natural",
+    "description": "Descubre la auténtica resina de copal negro amazónico del Perú. Incienso natural premium para meditación, limpieza energética y aromaterapia. Cosecha sostenible.",
+    "lang": "es",
+    "hreflang": {
+      "self": "https://copalperu.com/es",
+      "en": "https://copalperu.com/"
+    }
+  },
+  "nav": {
+    "what_is": "¿Qué es el Copal Negro?",
+    "uses": "Usos y Beneficios",
+    "origin": "Origen y Sostenibilidad",
+    "who": "Quiénes Somos",
+    "products": "Productos",
+    "contact": "Contacto"
+  },
+  "sections": {
+    "about": {
+      "title": "¿Qué es el Copal Negro Amazónico (Copal Negro)?",
+      "lead": "En lo profundo de la selva amazónica del Perú, la resina de copal negro —conocida localmente como <em>copal negro</em>— ha sido apreciada durante siglos como incienso sagrado y joya aromática. Usado tradicionalmente por comunidades indígenas para conectar con lo divino, su aroma terroso y balsámico crea un vínculo poderoso entre el cuerpo, el espíritu y la naturaleza.",
+      "paragraph2": "Cosechado con respeto por el bosque, el copal negro amazónico es una resina vegetal sólida que se endurece con el tiempo dentro de la corteza de árboles nativos. Al quemarse, se transforma en un humo blanco y denso utilizado en ceremonias espirituales, meditación y rituales de limpieza energética en todo el mundo.",
+      "bullet1": "100% natural y cosechado de forma sostenible en la Amazonía peruana",
+      "bullet2": "Venerado por sus propiedades purificadoras y de arraigo",
+      "bullet3": "Perfil aromático único: terroso, resinoso, ligeramente balsámico",
+      "bullet4": "Ingrediente clave en incienso, mezclas de sahumerio y aromaterapia",
+      "cta_text": "Descubrir el Copal Negro",
+      "cta_aria": "Descubrir la resina de Copal Negro",
+      "image_alt": "Resina de copal negro amazónico sostenida en manos, joya aromática sagrada del Perú"
+    },
+    
+    "origin": {
+      "practices_intro": "Seguimos estrictas prácticas de manejo forestal sostenible:"
+    },
+    
+    "products": {
+      "overlay_premium": "Calidad Premium",
+      "overlay_serfor": "Certificado SERFOR"
+    },
+    "contact": {
+      "title": "Contáctanos",
+      "subtitle": "Contacto"
+    }
+  },
+  "footer": {
+    "name": "Munay Ki Perú SAC",
+    "address": "Jirón Cdad. Real 269, Santiago de Surco"
+  }
+}

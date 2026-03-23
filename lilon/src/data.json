@@ -1,0 +1,740 @@
+{
+  "headerData": {
+    "logoDark": "/images/logo.svg",
+    "logoLight": "/images/logo-light.svg"
+  },
+  "heroData": {
+    "title": "Welcome to<br />Amazonian <span>Copal...</span>",
+    "subTitle": "<span>Natural Resins</span> from <span>Perú</span>",
+    "ImgLink": "/images/home-banner.png",
+    "phone": "Let's talk on WhatsApp",
+    "phoneNumber": "+51 937 189 509",
+    "email": "contacto@palosantopremium.com",
+    "btnText": "Discover Our Products",
+    "socialData": [
+      {
+        "link": "https://www.facebook.com/profile.php?id=100069320327901",
+        "icon": "facebook"
+      },
+      {
+        "link": "https://www.instagram.com/munay_kiperu/",
+        "icon": "instagram"
+      },
+      {
+        "link": "https://www.linkedin.com/company/munay-ki-peru-palo-santo",
+        "icon": "linkedin"
+      }
+    ]
+  },
+  "aboutData": {
+    "aboutLeft": {
+      "ImgLink": "/images/about-banner.png",
+      "name": "Copal Peru",
+      "designation": "Natural Resins <span>from</span> Peru",
+      "resumeCv": "/Resume.pdf"
+    },
+    "aboutRight": {
+      "aboutText": "We are specialists in the production and commercialization of the highest quality Peruvian copal. Our natural resins come from the Amazon rainforests of Peru, used since ancient times by indigenous communities for purification rituals and spiritual healing.",
+      "contactInfo": [
+        {
+          "icon": "phone",
+          "data": "+51 908 830 784"
+        },
+        {
+          "icon": "person",
+          "data": "Copal Peru"
+        },
+        {
+          "icon": "envelope",
+          "data": "contacto@palosantopremium.com"
+        },
+        {
+          "icon": "map",
+          "data": "Santiago de Surco, Lima, Peru"
+        }
+      ],
+      "archivement": [
+        {
+          "number": "15+",
+          "meta": "Years of <br /> experience...",
+          "text": "We are <span>Copal Peru</span>, specialists in Amazonian natural resins. We are passionately dedicated to preserving ancestral traditions and offering the highest quality products."
+        },
+        {
+          "number": "100+",
+          "meta": "Satisfied <br /> customers...",
+          "text": "With over 15 years of experience in the natural products market, we have positioned ourselves as leaders in the export of Peruvian copal."
+        }
+      ],
+      "note": "\"Copal is the soul of our ancestors, a sacred connection between earth and spirit that purifies and heals.\""
+    }
+  },
+  "usesAndBenefitsData": {
+    "title": "Uses & Benefits of Amazonian Black Copal",
+    "intro": "Amazonian black copal resin—also known as copal negro—is a sacred incense traditionally used for energy cleansing, protection, and spiritual connection. Its earthy, balsamic aroma creates a dense, grounding smoke that's ideal for rituals, meditation, and aromatic ambiance at home, studios, and sacred spaces.",
+    "benefits": [
+      {
+        "title": "Cleansing & Protection",
+        "heading": "Purifying atmosphere and energy reset",
+        "triger": "One",
+        "imgLink": "/images/services-1.jpg",
+        "text": "Create a purifying atmosphere and reset the energy of rooms, altars, and objects. Black copal smoke is traditionally used to clear stagnant energy and support protective intentions during ceremony and daily rituals."
+      },
+      {
+        "title": "Meditation & Focus",
+        "heading": "Deepen breath and center the mind",
+        "triger": "Two",
+        "imgLink": "/images/services-2.jpg",
+        "imgAlt": "Copal Supplier - Meditation & Focus with Amazonian Black Copal Resin",
+        "imgTitle": "Copal Supplier - Natural Black Copal for Meditation",
+        "text": "The slow, resinous burn helps you deepen breath, center the mind, and stay present. Many practitioners find increased clarity, grounded focus, and a calmer internal state for meditation and journaling."
+      },
+      {
+        "title": "Aromatherapy & Atmosphere",
+        "heading": "Warm, resinous profile for wellness spaces",
+        "triger": "Three",
+        "imgLink": "/images/services-3.jpg",
+        "text": "Its warm, resinous profile adds depth and character to wellness spaces. Burn alone or pair it with complementary botanicals to cultivate an intimate, sacred ambiance for gatherings and self-care."
+      }
+    ],
+    "howToBurn": {
+      "title": "How to Burn Black Copal (Step-by-Step)",
+      "steps": [
+        "Light a charcoal disc until it glows and turns gray.",
+        "Place the disc in a heat-safe resin burner on sand or ash.",
+        "Add a small piece of black copal on top—let it melt and gently smolder.",
+        "Ventilate the room; add resin gradually for steady smoke.",
+        "Never leave burning resin unattended."
+      ],
+      "safetyNote": "Burn on heat-resistant surfaces, keep away from children/pets, and ensure proper ventilation."
+    },
+    "popularBlends": {
+      "title": "Popular Blends (for layered rituals)",
+      "blends": [
+        "Black Copal + Palo Santo (grounding & clarity)",
+        "Black Copal + Frankincense (purification & luminosity)",
+        "Black Copal + Myrrh (protection & devotion)"
+      ]
+    },
+    "cta": {
+      "shopButton": {
+        "text": "Shop Black Copal",
+        "link": "/products/black-copal",
+        "ariaLabel": "Shop Black Copal Resin"
+      },
+      "wholesaleButton": {
+        "text": "Wholesale Inquiry",
+        "link": "/wholesale",
+        "ariaLabel": "Request wholesale quote for Black Copal"
+      }
+    }
+  },
+  "whoWeAreData": {
+    "title": "Who We Are — Munay Ki Perú SAC",
+    "intro": "Founded in 2014 in Lima, Munay Ki Perú SAC is a family business born from a deep journey along the Andean-Amazonian spiritual path. Our mission is to share the richness of Peru's sacred resources—such as black copal resin—while ensuring authenticity, premium quality, and sustainability in everything we offer.",
+    "commitmentTitle": "Our Commitment",
+    "commitmentPoints": [
+      {
+        "text": "Direct partnership with Achuar communities in Iquitos, Peru.",
+        "icon": "🤝"
+      },
+      {
+        "text": "Sustainable harvesting under certified forest management plans.",
+        "icon": "🌱"
+      },
+      {
+        "text": "Zero deforestation — resins are collected without harming trees.",
+        "icon": "🌍"
+      },
+      {
+        "text": "Promotion of reforestation initiatives and responsible resource use.",
+        "icon": "🌳"
+      },
+      {
+        "text": "100% legal sourcing with SERFOR export permits.",
+        "icon": "✅"
+      }
+    ],
+    "whyChooseTitle": "Why Choose Munay Ki?",
+    "whyChooseIntro": "We are more than a supplier—we are guardians of Amazonian traditions. By choosing us, you support:",
+    "whyChoosePoints": [
+      "A family-run company with more than a decade of expertise.",
+      "Fair trade practices that empower local communities.",
+      "A premium-quality product trusted worldwide.",
+      "Ethical sourcing that respects both people and planet."
+    ],
+    "closingText": "From Peru to the world, we are proud to be the most trusted black copal supplier for distributors, wellness centers, and spiritual communities in the USA, Europe, and Asia.",
+    "cta": {
+      "text": "Contact Us Today",
+      "link": "/contact",
+      "ariaLabel": "Get in touch with Munay Ki Peru SAC, black copal supplier"
+    },
+    "image": {
+      "src": "/images/copal.webp",
+      "alt": "Munay Ki Peru SAC team working with Achuar communities to harvest black copal resin sustainably in Peru."
+    }
+  },
+  "originSustainabilityData": {
+    "title": "Origin & Sustainability of Amazonian Black Copal",
+    "intro": "Our Amazonian black copal resin comes directly from the Peruvian rainforest, where the Achuar communities of Iquitos harvest it with deep respect for nature. For generations, these communities have viewed copal as a sacred gift, using traditional methods that protect the forest while preserving the resin's potency.",
+    "harvestTitle": "How We Harvest Black Copal",
+    "harvestPoints": [
+      "Only resin naturally produced by living trees is collected.",
+      "No deforestation — harvesting respects the tree's regeneration cycle.",
+      "All production complies with SERFOR forest management plans and legal permits.",
+      "Local collectors receive fair trade compensation, supporting livelihoods and community development."
+    ],
+    "globalTitle": "From the Amazon to the World",
+    "globalText": "Today, Amazonian black copal transcends borders, carrying the purifying energy of the rainforest to homes and spiritual centers worldwide. Our resin is already trusted in Germany, Japan, South Korea, Taiwan, and the UAE, where its aroma and authenticity inspire spiritual practices and holistic wellness.",
+    "timeline": [
+      {
+        "title": "Amazon Rainforest",
+        "description": "Copal resin forms naturally inside native trees.",
+        "icon": "mdi:tree"
+      },
+      {
+        "title": "Community Harvest",
+        "description": "Achuar collectors sustainably gather resin with traditional methods.",
+        "icon": "mdi:account-group"
+      },
+      {
+        "title": "Global Supply",
+        "description": "From Peru to the world — wholesale and retail distribution.",
+        "icon": "mdi:earth"
+      }
+    ],
+    "cta": {
+      "text": "Explore Our Sustainability Practices",
+      "link": "/sustainability",
+      "ariaLabel": "Read more about our ethical and sustainable harvesting of black copal"
+    },
+    "image": {
+      "src": "/images/slide2.png.webp",
+      "alt": "Ethically sourced, certified by SERFOR"
+    }
+  },
+  "productsData": {
+    "title": "Our Black Copal Products",
+    "intro": "We offer a wide range of Amazonian black copal products, each carefully sourced, processed, and packaged to meet the highest quality standards. Whether you're a retailer, distributor, or wellness center, our catalog adapts to your needs—from raw resin to value-added formats.",
+    "products": [
+      {
+        "title": "COPAL INCENSE WITH PALO SANTO",
+        "description": "Premium blend of Amazonian black copal resin with authentic Palo Santo wood. This sacred combination creates a powerful aromatic experience perfect for meditation, energy cleansing, and spiritual ceremonies.",
+        "features": [
+          "100% natural black copal and Palo Santo blend",
+          "Sustainably sourced from the Peruvian Amazon",
+          "Perfect for meditation and spiritual practices",
+          "Long-lasting aromatic experience"
+        ],
+        "ctaText": "Buy Now",
+        "ctaLink": "https://app.palosantopremium.com/product/dhoop-incense-munay-palo-santo-copal/",
+        "ctaType": "shop",
+        "image": "/images/producto-min.webp",
+        "imageAlt": "Copal incense with Palo Santo blend for spiritual ceremonies"
+      },
+      {
+        "title": "COPAL RESIN",
+        "description": "Pure Amazonian black copal resin in its natural form. Harvested sustainably from the Peruvian rainforest, this premium resin is perfect for traditional incense burning and energy purification rituals.",
+        "features": [
+          "100% pure Amazonian black copal resin",
+          "SERFOR certified with legal export permits",
+          "Traditional harvesting methods",
+          "Ideal for spiritual practices and aromatherapy"
+        ],
+        "ctaText": "Buy Now",
+        "ctaLink": "https://app.palosantopremium.com/product/black-copal-resin-bulk/",
+        "ctaType": "shop",
+        "image": "/images/copal-min.webp",
+        "imageAlt": "Pure black copal resin from the Peruvian Amazon"
+      },
+      {
+        "title": "BLACK COPAL, PALO SANTO AND MIRA RESINS",
+        "description": "Exclusive blend of three sacred resins: black copal, Palo Santo, and Myrrh. This powerful combination offers a unique aromatic profile for deep meditation, spiritual ceremonies, and energy cleansing practices.",
+        "features": [
+          "Triple blend of sacred resins",
+          "Black copal, Palo Santo, and Myrrh combination",
+          "Perfect for advanced spiritual practices",
+          "Unique aromatic profile for deep meditation"
+        ],
+        "ctaText": "Buy Now",
+        "ctaLink": "https://app.palosantopremium.com/product/copal-palo-santo-myrrh/",
+        "ctaType": "shop",
+        "image": "/images/mirra-min.webp",
+        "imageAlt": "Blend of black copal, Palo Santo and Myrrh resins"
+      },
+      {
+        "title": "Essential Oil & Extracts",
+        "description": "Steam-distilled black copal essential oil, concentrated for use in aromatherapy, diffusers, and holistic wellness products. Wholesale options available for cosmetic and wellness industries.",
+        "features": [
+          "Steam-distilled for maximum purity and potency",
+          "Concentrated formula for aromatherapy use",
+          "Suitable for diffusers and wellness products",
+          "Bulk options for cosmetic industry applications"
+        ],
+        "ctaText": "Request Oil Quote",
+        "ctaLink": "/wholesale",
+        "ctaType": "quote",
+        "image": "/images/copal-essential-oil.jpg",
+        "imageAlt": "Dropper bottle with black copal essential oil for aromatherapy"
+      },
+      {
+        "title": "Wholesale & Bulk Supply",
+        "description": "As the leading black copal supplier from Peru, we provide bulk options for distributors and international buyers. From kilos to container loads, fully certified with SERFOR permits.",
+        "features": [
+          "Bulk quantities from 10kg to container loads",
+          "Competitive wholesale pricing for distributors",
+          "Full SERFOR certification and export documentation",
+          "International shipping to USA, Europe, and Asia"
+        ],
+        "ctaText": "Request Wholesale Quote",
+        "ctaLink": "/wholesale",
+        "ctaType": "quote",
+        "image": "/images/copal-wholesale.jpg",
+        "imageAlt": "Large quantities of black copal resin prepared for wholesale distribution"
+      }
+    ],
+    "bottomCta": {
+      "text": "Need a custom solution or have questions about our products? Our team is ready to help you find the perfect black copal option for your business.",
+      "buttonText": "Contact Our Sales Team",
+      "link": "/contact",
+      "ariaLabel": "Contact Munay Ki Peru SAC sales team for custom black copal solutions"
+    }
+  },
+  "portfolioData": [
+    {
+      "ImgLink": "/images/services-1.jpg",
+      "subTitle": "UX case study",
+      "title": "Processor Research",
+      "link": "",
+      "paragraphList": [
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      ]
+    },
+    {
+      "ImgLink": "/images/services-2.jpg",
+      "subTitle": "UX case study",
+      "title": "Artificial Research",
+      "link": "",
+      "paragraphList": [
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      ]
+    },
+    {
+      "ImgLink": "/images/services-3.jpg",
+      "subTitle": "UX case study",
+      "title": "Website Research",
+      "link": "",
+      "paragraphList": [
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      ]
+    },
+    {
+      "ImgLink": "/images/services-4.jpg",
+      "subTitle": "UX case study",
+      "title": "Robotics Research",
+      "link": "",
+      "paragraphList": [
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      ]
+    }
+  ],
+  "blogData": [
+    {
+      "ImgLink": "/images/blog-1.jpg",
+      "date": "12 July, 2022",
+      "delay": "700",
+      "title": "12 unique example of portfolio websites",
+      "paragraphList": [
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      ]
+    },
+    {
+      "ImgLink": "/images/blog-2.jpg",
+      "date": "11 July, 2022",
+      "delay": "800",
+      "title": "12 unique example of portfolio websites",
+      "paragraphList": [
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      ]
+    },
+    {
+      "ImgLink": "/images/blog-3.jpg",
+      "date": "10 July, 2022",
+      "delay": "900",
+      "title": "12 unique example of portfolio websites",
+      "paragraphList": [
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      ]
+    },
+    {
+      "ImgLink": "/images/blog-4.jpg",
+      "date": "10 July, 2022",
+      "delay": "1000",
+      "title": "12 unique example of portfolio websites",
+      "paragraphList": [
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+        },
+        {
+          "text": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      ]
+    }
+  ],
+  "sliderData": {
+    "testimonialInfo": {
+      "useFor": "testimonial",
+      "settings": {
+        "infinite": true,
+        "speed": 1500,
+        "autoplay": true,
+        "autoplaySpeed": 5000,
+        "slidesToShow": 2,
+        "slidesToScroll": 1,
+        "arrows": false,
+        "dots": true,
+        "responsive": [
+          {
+            "breakpoint": 991,
+            "settings": {
+              "slidesToShow": 1,
+              "autoplay": true
+            }
+          }
+        ]
+      },
+      "info": [
+        {
+          "imgLink": "/images/avatar-1.jpg",
+          "name": "Ema Watson",
+          "designation": "Chief Executive Officer, Brazil",
+          "text": "File storage made easy – including powerful features you won’t find anywhere else. Whether          you’re."
+        },
+        {
+          "imgLink": "/images/avatar-2.jpg",
+          "name": "Ema Watson",
+          "designation": "Chief Executive Officer, Brazil",
+          "text": "File storage made easy – including powerful features you won’t find anywhere else. Whether          you’re."
+        },
+        {
+          "imgLink": "/images/avatar-1.jpg",
+          "name": "Ema Watson",
+          "designation": "Chief Executive Officer, Brazil",
+          "text": "File storage made easy – including powerful features you won’t find anywhere else. Whether          you’re."
+        },
+        {
+          "imgLink": "/images/avatar-2.jpg",
+          "name": "Ema Watson",
+          "designation": "Chief Executive Officer, Brazil",
+          "text": "File storage made easy – including powerful features you won’t find anywhere else. Whether          you’re."
+        }
+      ]
+    },
+    "brandInfo": {
+      "useFor": "brand",
+      "settings": {
+        "infinite": true,
+        "speed": 1000,
+        "autoplay": true,
+        "autoplaySpeed": 3000,
+        "slidesToShow": 5,
+        "slidesToScroll": 1,
+        "arrows": false,
+        "responsive": [
+          {
+            "breakpoint": 991,
+            "settings": {
+              "slidesToShow": 4
+            }
+          },
+          {
+            "breakpoint": 767,
+            "settings": {
+              "slidesToShow": 3
+            }
+          }
+        ]
+      },
+      "info": [
+        {
+          "imgLink": "/images/brand-1.png",
+          "name": "Partner Brand 1"
+        },
+        {
+          "imgLink": "/images/brand-2.png",
+          "name": "Partner Brand 2"
+        },
+        {
+          "imgLink": "/images/brand-3.png",
+          "name": "Partner Brand 3"
+        },
+        {
+          "imgLink": "/images/brand-4.png",
+          "name": "Partner Brand 4"
+        },
+        {
+          "imgLink": "/images/brand-1.png",
+          "name": "Partner Brand 1"
+        },
+        {
+          "imgLink": "/images/brand-2.png",
+          "name": "Partner Brand 2"
+        }
+      ]
+    }
+  },
+  "contactData": {
+    "contactInfo": [
+      {
+        "icon": "chat-left-dots-fill",
+        "title": "Let's Talk",
+        "text": "Our friendly team is here to help.",
+        "emailLink": "contacto@palosantopremium.com"
+      },
+      {
+        "icon": "compass",
+        "title": "Visit Us",
+        "text": "Come visit our main offices. Jirón Cdad. Real 269, Santiago de Surco"
+      },
+      {
+        "icon": "phone",
+        "title": "Call Us",
+        "text": "Monday to Friday from 8am to 6pm. +51 937 189 509"
+      }
+    ],
+    "contactForm": {
+      "title": "Got ideas? We have the experience. Let's work together.",
+      "text": "Tell us more about yourself and what you have in mind for your copal products."
+    }
+  },
+  "footerData": {
+    "ImgLink": "/images/about-banner.png",
+    "name": "Munay Ki Perú SAC",
+    "address": "Jirón Cdad. Real 269, Santiago de Surco",
+    "websiteLinks": [
+      {
+        "name": "Peruvian palo santo",
+        "url": "https://palosantopremium.com/en"
+      },
+      {
+        "name": "Shaman Dealer",
+        "url": "https://shamandealer.com/"
+      },
+      {
+        "name": "Munay ki Peru",
+        "url": "https://munayperu.pe/"
+      },
+      {
+        "name": "Mapacho Perú",
+        "url": "https://mapachoperu.com/"
+      }
+    ]
+  },
+  "socialData": [
+    {
+      "icon": "facebook",
+      "link": "https://www.facebook.com/profile.php?id=100069320327901"
+    },
+    {
+      "icon": "instagram",
+      "link": "https://www.instagram.com/munay_kiperu/"
+    },
+    {
+      "icon": "linkedin",
+      "link": "https://www.linkedin.com/company/munay-ki-peru-palo-santo"
+    }
+  ],
+  "copalDifferencesData": {
+    "title": "Understanding the Different Types of Copal",
+    "peruVsMexico": {
+      "title": "Copal from Peru vs. Copal from Mexico",
+      "intro": "Both Peru and Mexico are renowned for their copal resins, but they differ in botanical species, aroma profiles, and cultural uses. Here's how they compare:",
+      "leftColumn": {
+        "title": "Peruvian Copal (Amazonian)"
+      },
+      "rightColumn": {
+        "title": "Mexican Copal"
+      },
+      "attributes": [
+        {
+          "name": "Origin",
+          "icon": "mdi:map-marker",
+          "leftValue": "Harvested in the Peruvian Amazon (Achuar communities, Iquitos)",
+          "rightValue": "Harvested mainly in Oaxaca and central Mexico"
+        },
+        {
+          "name": "Species",
+          "icon": "mdi:leaf",
+          "leftValue": "Protium & Bursera graveolens varieties",
+          "rightValue": "Primarily Bursera bipinnata"
+        },
+        {
+          "name": "Aroma",
+          "icon": "mdi:weather-windy",
+          "leftValue": "Earthy, resinous, balsamic, dense smoke",
+          "rightValue": "Sweet, citrusy, lighter"
+        },
+        {
+          "name": "Uses",
+          "icon": "mdi:hands-pray",
+          "leftValue": "Spiritual cleansing, meditation, wholesale incense",
+          "rightValue": "Traditional rituals, Dia de los Muertos offerings"
+        },
+        {
+          "name": "Sustainability",
+          "icon": "mdi:shield-check",
+          "leftValue": "Certified, harvested under SERFOR forest plans",
+          "rightValue": "Often wild-collected, less standardized"
+        },
+        {
+          "name": "Market",
+          "icon": "mdi:earth",
+          "leftValue": "Popular in wellness, aromatherapy, global wholesale",
+          "rightValue": "Strong in cultural ceremonies and artisanal incense"
+        }
+      ]
+    },
+    "blackVsWhite": {
+      "title": "Black Copal vs White Copal",
+      "intro": "Both black copal (copal negro) and white copal (copal blanco) are sacred resins, each with distinct aromas, colors, and ritual uses.",
+      "leftColumn": {
+        "title": "Black Copal (Copal Negro)"
+      },
+      "rightColumn": {
+        "title": "White Copal (Copal Blanco)"
+      },
+      "attributes": [
+        {
+          "name": "Appearance",
+          "icon": "mdi:palette",
+          "leftValue": "Dark brown to black, dense resin",
+          "rightValue": "Pale, golden or white, lighter resin"
+        },
+        {
+          "name": "Aroma",
+          "icon": "mdi:weather-windy",
+          "leftValue": "Deep, earthy, balsamic, grounding",
+          "rightValue": "Sweet, citrusy, uplifting"
+        },
+        {
+          "name": "Smoke",
+          "icon": "mdi:smoke",
+          "leftValue": "Thick, heavy white smoke",
+          "rightValue": "Lighter, more delicate smoke"
+        },
+        {
+          "name": "Uses",
+          "icon": "mdi:hands-pray",
+          "leftValue": "Energy cleansing, protection, grounding rituals",
+          "rightValue": "Clarity, illumination, raising vibrations"
+        },
+        {
+          "name": "Harvest",
+          "icon": "mdi:clock-time-four",
+          "leftValue": "From older resins, hardened longer",
+          "rightValue": "From fresher resins, softer texture"
+        },
+        {
+          "name": "Best For",
+          "icon": "mdi:star",
+          "leftValue": "Meditation, heavy ceremonies, space protection",
+          "rightValue": "Daily rituals, offerings, gentle meditation"
+        }
+      ]
+    },
+    "closingText": "At Munay Ki Perú SAC, we specialize in Amazonian Black Copal harvested sustainably in Peru, ensuring authentic quality for both spiritual practice and wholesale distribution.",
+    "cta": [
+      {
+        "text": "Shop Black Copal",
+        "link": "https://wa.me/51937189509",
+        "type": "btn-primary",
+        "ariaLabel": "Shop our premium black copal products"
+      },
+      {
+        "text": "Request Wholesale Quote",
+        "link": "/wholesale",
+        "type": "btn-secondary",
+        "ariaLabel": "Request wholesale pricing for black copal"
+      }
+    ]
+  }
+}

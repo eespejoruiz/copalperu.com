@@ -1,0 +1,291 @@
+{
+  "whoWeAreData": {
+    "title": "Quiénes Somos — Munay Ki Perú SAC",
+    "intro": "Fundada en 2014 en Lima, Munay Ki Perú SAC es una empresa familiar nacida de un profundo camino espiritual andino-amazónico. Nuestra misión es compartir la riqueza de los recursos sagrados del Perú —como el copal negro— asegurando autenticidad, calidad premium y sostenibilidad en todo lo que ofrecemos.",
+    "commitmentTitle": "Nuestro Compromiso",
+    "commitmentPoints": [
+      { "text": "Alianza directa con comunidades Achuar en Iquitos, Perú.", "icon": "🤝" },
+      { "text": "Cosecha sostenible bajo planes de manejo forestal certificados.", "icon": "🌱" },
+      { "text": "Cero deforestación — la resina se recolecta sin dañar los árboles.", "icon": "🌍" },
+      { "text": "Promoción de la reforestación y uso responsable de recursos.", "icon": "🌳" },
+      { "text": "Abastecimiento 100% legal con permisos de exportación SERFOR.", "icon": "✅" }
+    ],
+    "whyChooseTitle": "¿Por qué elegir Munay Ki?",
+    "whyChooseIntro": "Somos más que un proveedor: somos guardianes de tradiciones amazónicas. Al elegirnos, apoyas:",
+    "whyChoosePoints": [
+      "Empresa familiar con más de una década de experiencia.",
+      "Comercio justo que empodera a las comunidades locales.",
+      "Producto de calidad premium confiado en todo el mundo.",
+      "Abastecimiento ético que respeta a las personas y al planeta."
+    ],
+    "closingText": "Del Perú para el mundo, somos el proveedor más confiable de copal negro para distribuidores, centros de bienestar y comunidades espirituales en EE.UU., Europa y Asia.",
+    "cta": {
+      "text": "Contáctanos Hoy",
+      "link": "/contact",
+      "ariaLabel": "Contacta a Munay Ki Peru SAC, proveedor de copal negro"
+    },
+    "image": {
+      "src": "/images/copal.webp",
+      "alt": "Equipo de Munay Ki Perú SAC trabajando con comunidades Achuar para recolectar copal negro de forma sostenible en Perú."
+    }
+  },
+  "originSustainabilityData": {
+    "title": "Origen y Sostenibilidad del Copal Negro Amazónico",
+    "intro": "Nuestro copal negro amazónico proviene directamente de la selva peruana, donde las comunidades Achuar de Iquitos lo recolectan con profundo respeto por la naturaleza. Por generaciones, el copal ha sido considerado un regalo sagrado, usando métodos tradicionales que protegen el bosque y preservan la potencia de la resina.",
+    "harvestTitle": "Cómo Cosechamos el Copal Negro",
+    "harvestPoints": [
+      "Solo se recolecta la resina producida naturalmente por árboles vivos.",
+      "Sin deforestación — la cosecha respeta el ciclo de regeneración del árbol.",
+      "Toda producción cumple con planes de manejo forestal SERFOR y permisos legales.",
+      "Los recolectores locales reciben compensación de comercio justo, apoyando su sustento y desarrollo comunitario."
+    ],
+    "globalTitle": "De la Amazonía para el Mundo",
+    "globalText": "Hoy, el copal negro amazónico trasciende fronteras, llevando la energía purificadora de la selva a hogares y centros espirituales del mundo. Nuestra resina ya es confiada en Alemania, Japón, Corea del Sur, Taiwán y EAU, donde su aroma y autenticidad inspiran prácticas espirituales y bienestar holístico.",
+    "timeline": [
+      { "title": "Selva Amazónica", "description": "La resina de copal se forma naturalmente dentro de árboles nativos.", "icon": "mdi:tree" },
+      { "title": "Cosecha Comunitaria", "description": "Recolectores Achuar reúnen la resina de forma sostenible con métodos tradicionales.", "icon": "mdi:account-group" },
+      { "title": "Distribución Global", "description": "Del Perú para el mundo — distribución mayorista y retail.", "icon": "mdi:earth" }
+    ],
+    "cta": {
+      "text": "Explora Nuestras Prácticas de Sostenibilidad",
+      "link": "/sustainability",
+      "ariaLabel": "Lee más sobre nuestra cosecha ética y sostenible del copal negro"
+    },
+    "image": {
+      "src": "/images/slide2.png.webp",
+      "alt": "Origen ético, certificado por SERFOR"
+    }
+  },
+  "productsData": {
+    "title": "Nuestros Productos de Copal Negro",
+    "intro": "Ofrecemos una amplia gama de productos de copal negro amazónico, cuidadosamente recolectados, procesados y envasados para cumplir con los más altos estándares de calidad. Ya seas minorista, distribuidor o centro de bienestar, nuestro catálogo se adapta a tus necesidades — desde resina cruda hasta formatos de valor agregado.",
+    "products": [
+      {
+        "title": "INCIENSO DE COPAL CON PALO SANTO",
+        "description": "Mezcla premium de resina de copal negro amazónico con auténtica madera de Palo Santo. Esta combinación sagrada crea una experiencia aromática poderosa, ideal para meditación, limpieza energética y ceremonias espirituales.",
+        "features": [
+          "Mezcla 100% natural de copal negro y Palo Santo",
+          "Origen sostenible de la Amazonía peruana",
+          "Perfecto para meditación y prácticas espirituales",
+          "Experiencia aromática de larga duración"
+        ],
+        "ctaText": "Comprar",
+        "ctaLink": "https://app.palosantopremium.com/product/dhoop-incense-munay-palo-santo-copal/",
+        "ctaType": "shop",
+        "image": "/images/producto-min.webp",
+        "imageAlt": "Incienso de copal con mezcla de Palo Santo para ceremonias espirituales"
+      },
+      {
+        "title": "RESINA DE COPAL",
+        "description": "Resina de copal negro amazónico en su forma natural. Cosechada de manera sostenible en la selva peruana, esta resina premium es perfecta para la quema tradicional de incienso y rituales de purificación energética.",
+        "features": [
+          "Resina de copal negro amazónico 100% pura",
+          "Certificado SERFOR con permisos legales de exportación",
+          "Métodos de cosecha tradicionales",
+          "Ideal para prácticas espirituales y aromaterapia"
+        ],
+        "ctaText": "Comprar",
+        "ctaLink": "https://app.palosantopremium.com/product/black-copal-resin-bulk/",
+        "ctaType": "shop",
+        "image": "/images/copal-min.webp",
+        "imageAlt": "Resina de copal negro pura de la Amazonía peruana"
+      },
+      {
+        "title": "COPAL NEGRO, PALO SANTO Y MIRRA",
+        "description": "Mezcla exclusiva de tres resinas sagradas: copal negro, Palo Santo y Mirra. Esta poderosa combinación ofrece un perfil aromático único para meditación profunda, ceremonias espirituales y prácticas de limpieza energética.",
+        "features": [
+          "Mezcla triple de resinas sagradas",
+          "Combinación de copal negro, Palo Santo y Mirra",
+          "Perfecto para prácticas espirituales avanzadas",
+          "Perfil aromático único para meditación profunda"
+        ],
+        "ctaText": "Comprar",
+        "ctaLink": "https://app.palosantopremium.com/product/copal-palo-santo-myrrh/",
+        "ctaType": "shop",
+        "image": "/images/mirra-min.webp",
+        "imageAlt": "Mezcla de resinas de copal negro, Palo Santo y Mirra"
+      },
+      {
+        "title": "Aceite Esencial y Extractos",
+        "description": "Aceite esencial de copal negro destilado al vapor, concentrado para aromaterapia, difusores y productos de bienestar. Opciones mayoristas disponibles para cosmética e industria del bienestar.",
+        "features": [
+          "Destilado al vapor para máxima pureza y potencia",
+          "Fórmula concentrada para uso en aromaterapia",
+          "Apto para difusores y productos de bienestar",
+          "Opciones a granel para la industria cosmética"
+        ],
+        "ctaText": "Solicitar Cotización de Aceite",
+        "ctaLink": "/wholesale",
+        "ctaType": "quote",
+        "image": "/images/copal-essential-oil.jpg",
+        "imageAlt": "Gotero con aceite esencial de copal negro para aromaterapia"
+      },
+      {
+        "title": "Suministro Mayorista y a Granel",
+        "description": "Como principales proveedores de copal negro del Perú, ofrecemos opciones a granel para distribuidores y compradores internacionales. Desde kilos hasta contenedores, totalmente certificados con permisos SERFOR.",
+        "features": [
+          "Cantidades a granel desde 10 kg hasta contenedores",
+          "Precios mayoristas competitivos para distribuidores",
+          "Certificación SERFOR y documentación de exportación",
+          "Envíos internacionales a EE.UU., Europa y Asia"
+        ],
+        "ctaText": "Solicitar Cotización Mayorista",
+        "ctaLink": "/wholesale",
+        "ctaType": "quote",
+        "image": "/images/copal-wholesale.jpg",
+        "imageAlt": "Grandes cantidades de resina de copal negro preparadas para distribución mayorista"
+      }
+    ],
+    "bottomCta": {
+      "text": "¿Necesitas una solución a medida o tienes preguntas sobre nuestros productos? Nuestro equipo está listo para ayudarte a encontrar la opción perfecta de copal negro para tu negocio.",
+      "buttonText": "Contactar al Equipo de Ventas",
+      "link": "/contact",
+      "ariaLabel": "Contacta al equipo de ventas de Munay Ki Peru SAC para soluciones de copal negro a medida"
+    }
+  },
+  "heroData": {
+    "title": "Bienvenido al<br />Copal <span>Amazónico</span>",
+    "subTitle": "<span>Resinas Naturales</span> del <span>Perú</span>",
+    "ImgLink": "/images/home-banner.png",
+    "phone": "Hablemos por WhatsApp",
+    "phoneNumber": "+51 937 189 509",
+    "email": "contacto@palosantopremium.com",
+    "btnText": "Descubre Nuestros Productos",
+    "socialData": [
+      { "link": "https://www.facebook.com/profile.php?id=100069320327901", "icon": "facebook" },
+      { "link": "https://www.instagram.com/munay_kiperu/", "icon": "instagram" },
+      { "link": "https://www.linkedin.com/company/munay-ki-peru-palo-santo", "icon": "linkedin" }
+    ]
+  },
+  "usesAndBenefitsData": {
+    "title": "Usos y Beneficios del Copal Negro Amazónico",
+    "intro": "La resina de copal negro amazónico —también conocida como copal negro— es un incienso sagrado usado tradicionalmente para la limpieza energética, la protección y la conexión espiritual. Su aroma terroso y balsámico crea un humo denso y de arraigo, ideal para rituales, meditación y ambientación aromática en hogares, estudios y espacios sagrados.",
+    "benefits": [
+      {
+        "title": "Limpieza y Protección",
+        "heading": "Purificar el ambiente y reiniciar la energía",
+        "triger": "One",
+        "imgLink": "/images/services-1.jpg",
+        "text": "Crea un ambiente purificador y reinicia la energía de habitaciones, altares y objetos. El humo del copal negro se usa tradicionalmente para limpiar energías estancadas y apoyar intenciones de protección durante ceremonias y rituales diarios."
+      },
+      {
+        "title": "Meditación y Enfoque",
+        "heading": "Profundiza la respiración y centra la mente",
+        "triger": "Two",
+        "imgLink": "/images/services-2.jpg",
+        "imgAlt": "Proveedor de Copal - Meditación y Enfoque con Resina de Copal Negro Amazónico",
+        "imgTitle": "Proveedor de Copal - Copal Negro Natural para Meditación",
+        "text": "Su combustión lenta y resinosa ayuda a profundizar la respiración, centrar la mente y mantener la presencia. Muchos practicantes encuentran mayor claridad, enfoque arraigado y un estado interno más calmado para meditar y escribir."
+      },
+      {
+        "title": "Aromaterapia y Ambiente",
+        "heading": "Perfil cálido y resinoso para espacios de bienestar",
+        "triger": "Three",
+        "imgLink": "/images/services-3.jpg",
+        "text": "Su perfil cálido y resinoso aporta profundidad y carácter a espacios de bienestar. Quémalo solo o combínalo con botánicos complementarios para cultivar una atmósfera íntima y sagrada en reuniones y autocuidado."
+      }
+    ],
+    "howToBurn": {
+      "title": "Cómo quemar copal negro (paso a paso)",
+      "steps": [
+        "Enciende un disco de carbón hasta que brille y se torne gris.",
+        "Coloca el disco en un quemador resistente al calor sobre arena o ceniza.",
+        "Añade un pequeño trozo de copal negro arriba — deja que se derrita y humee suavemente.",
+        "Ventila el ambiente; agrega resina gradualmente para mantener el humo constante.",
+        "Nunca dejes la resina encendida sin supervisión."
+      ],
+      "safetyNote": "Quema sobre superficies resistentes al calor, mantén fuera del alcance de niños/mascotas y asegúrate de una ventilación adecuada."
+    },
+    "popularBlends": {
+      "title": "Mezclas populares (para rituales en capas)",
+      "blends": [
+        "Copal Negro + Palo Santo (arraigo y claridad)",
+        "Copal Negro + Incienso (purificación y luminosidad)",
+        "Copal Negro + Mirra (protección y devoción)"
+      ]
+    },
+    "cta": {
+      "shopButton": {
+        "text": "Comprar Copal Negro",
+        "link": "/products/black-copal",
+        "ariaLabel": "Comprar resina de copal negro"
+      },
+      "wholesaleButton": {
+        "text": "Consulta Mayorista",
+        "link": "/wholesale",
+        "ariaLabel": "Solicitar cotización mayorista de copal negro"
+      }
+    }
+  },
+  "contactData": {
+    "contactInfo": [
+      {
+        "icon": "chat-left-dots-fill",
+        "title": "Hablemos",
+        "text": "Nuestro equipo amable está aquí para ayudarte.",
+        "emailLink": "contacto@palosantopremium.com"
+      },
+      {
+        "icon": "compass",
+        "title": "Visítanos",
+        "text": "Visita nuestra oficina principal. Jirón Cdad. Real 269, Santiago de Surco"
+      },
+      {
+        "icon": "phone",
+        "title": "Llámanos",
+        "text": "Lunes a viernes de 8am a 6pm. +51 937 189 509"
+      }
+    ],
+    "contactForm": {
+      "title": "¿Tienes ideas? Tenemos la experiencia. Trabajemos juntos.",
+      "text": "Cuéntanos más sobre ti y lo que tienes en mente para tus productos de copal."
+    }
+  },
+  "copalDifferencesData": {
+    "title": "Comprendiendo los Diferentes Tipos de Copal",
+    "peruVsMexico": {
+      "title": "Copal del Perú vs. Copal de México",
+      "intro": "Tanto Perú como México son reconocidos por sus resinas de copal, pero difieren en especies botánicas, perfiles aromáticos y usos culturales. Así se comparan:",
+      "leftColumn": { "title": "Copal Peruano (Amazónico)" },
+      "rightColumn": { "title": "Copal Mexicano" },
+      "attributes": [
+        { "name": "Origen", "icon": "mdi:map-marker", "leftValue": "Recolectado en la Amazonía peruana (comunidades Achuar, Iquitos)", "rightValue": "Recolectado principalmente en Oaxaca y centro de México" },
+        { "name": "Especie", "icon": "mdi:leaf", "leftValue": "Variedades Protium y Bursera graveolens", "rightValue": "Principalmente Bursera bipinnata" },
+        { "name": "Aroma", "icon": "mdi:weather-windy", "leftValue": "Terroso, resinoso, balsámico, humo denso", "rightValue": "Dulce, cítrico, más ligero" },
+        { "name": "Usos", "icon": "mdi:hands-pray", "leftValue": "Limpieza espiritual, meditación, incienso al por mayor", "rightValue": "Rituales tradicionales, ofrendas del Día de Muertos" },
+        { "name": "Sostenibilidad", "icon": "mdi:shield-check", "leftValue": "Certificado, cosechado bajo planes forestales SERFOR", "rightValue": "A menudo de recolección silvestre, menos estandarizado" },
+        { "name": "Mercado", "icon": "mdi:earth", "leftValue": "Popular en bienestar, aromaterapia, mayorista global", "rightValue": "Fuerte en ceremonias culturales e incienso artesanal" }
+      ]
+    },
+    "blackVsWhite": {
+      "title": "Copal Negro vs Copal Blanco",
+      "intro": "Tanto el copal negro como el copal blanco son resinas sagradas, cada una con aromas, colores y usos rituales distintos.",
+      "leftColumn": { "title": "Copal Negro (Copal negro)" },
+      "rightColumn": { "title": "Copal Blanco (Copal blanco)" },
+      "attributes": [
+        { "name": "Apariencia", "icon": "mdi:palette", "leftValue": "Marrón oscuro a negro, resina densa", "rightValue": "Pálido, dorado o blanco, resina más ligera" },
+        { "name": "Aroma", "icon": "mdi:weather-windy", "leftValue": "Profundo, terroso, balsámico, de arraigo", "rightValue": "Dulce, cítrico, elevador" },
+        { "name": "Humo", "icon": "mdi:smoke", "leftValue": "Humo blanco espeso y pesado", "rightValue": "Humo más ligero y delicado" },
+        { "name": "Usos", "icon": "mdi:hands-pray", "leftValue": "Limpieza energética, protección, rituales de arraigo", "rightValue": "Claridad, iluminación, elevar vibraciones" },
+        { "name": "Cosecha", "icon": "mdi:clock-time-four", "leftValue": "De resinas más antiguas, endurecidas por más tiempo", "rightValue": "De resinas más frescas, textura más suave" },
+        { "name": "Ideal para", "icon": "mdi:star", "leftValue": "Meditación, ceremonias intensas, protección del espacio", "rightValue": "Rituales diarios, ofrendas, meditación suave" }
+      ]
+    },
+    "closingText": "En Munay Ki Perú SAC, nos especializamos en Copal Negro Amazónico cosechado de manera sostenible en Perú, garantizando calidad auténtica para la práctica espiritual y la distribución mayorista.",
+    "cta": [
+      { "text": "Comprar Copal Negro", "link": "https://wa.me/51937189509", "type": "btn-primary", "ariaLabel": "Compra nuestros productos premium de copal negro" },
+      { "text": "Solicitar Cotización Mayorista", "link": "/wholesale", "type": "btn-secondary", "ariaLabel": "Solicitar precios mayoristas de copal negro" }
+    ]
+  },
+  "footerData": {
+    "ImgLink": "/images/about-banner.png",
+    "name": "Munay Ki Perú SAC",
+    "address": "Jirón Cdad. Real 269, Santiago de Surco",
+    "websiteLinks": [
+      { "name": "Palo santo peruano", "url": "https://palosantopremium.com/en" },
+      { "name": "Shaman Dealer", "url": "https://shamandealer.com/" },
+      { "name": "Munay ki Peru", "url": "https://munayperu.pe/" },
+      { "name": "Mapacho Perú", "url": "https://mapachoperu.com/" }
+    ]
+  }
+}

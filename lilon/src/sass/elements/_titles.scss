@@ -1,0 +1,34 @@
+/* ----------------------
+* Títulos con fuente Rubik Distressed
+---------------------------*/
+
+// Aplicar Rubik Distressed a todos los títulos principales
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Rubik Distressed', cursive !important;
+  font-weight: normal !important;
+}
+
+// Clases específicas de títulos
+.section-title,
+.content-subtitle,
+.product-title,
+.services-title {
+  font-family: 'Rubik Distressed', cursive !important;
+  font-weight: normal !important;
+}
+
+// Títulos en componentes específicos
+.about-left h3,
+.resume-box h5,
+.work-text h4,
+.testimonials-box h6 {
+  font-family: 'Rubik Distressed', cursive !important;
+  font-weight: normal !important;
+}
+
+// Títulos en secciones específicas
+.section-heading h2,
+.section-heading h6 {
+  font-family: 'Rubik Distressed', cursive !important;
+  font-weight: normal !important;
+}

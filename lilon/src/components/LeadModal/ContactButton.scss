@@ -1,0 +1,49 @@
+// Estilos para hacer que el botón Contact se vea igual que los elementos ScrollLink
+.contact-nav-button {
+  padding: 10px 30px;
+  position: relative;
+  display: flex;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--px-white) !important;
+  opacity: 0.85;
+  text-decoration: none;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-family: inherit;
+  
+  @media (max-width: 991px) {
+    padding: 10px 20px;
+  }
+  
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(270.16deg, var(--px-theme) 33.61%, rgba(110, 91, 44, 0) 92.05%);
+    transition: ease all 0.35s;
+  }
+  
+  &:hover {
+    opacity: 1;
+    
+    &:after {
+      width: 65px;
+    }
+  }
+  
+  &.active {
+    opacity: 1;
+    
+    &:after {
+      width: 65px;
+    }
+  }
+}

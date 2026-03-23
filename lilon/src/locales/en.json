@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "title": "Copal Peru - Premium Amazonian Black Copal Resin | Natural Incense",
+    "description": "Discover authentic Amazonian black copal resin from Peru. Premium natural incense for meditation, cleansing rituals, and aromatherapy. Sustainably sourced.",
+    "lang": "en",
+    "hreflang": {
+      "self": "https://copalperu.com/",
+      "es": "https://copalperu.com/es"
+    }
+  },
+  "nav": {
+    "what_is": "What is Black Copal",
+    "uses": "Uses & Benefits",
+    "origin": "Origin & Sustainability",
+    "who": "Who We Are",
+    "products": "Products",
+    "contact": "Contact"
+  },
+  "sections": {
+    "about": {
+      "title": "What Is Amazonian Black Copal (Copal Negro)?",
+      "lead": "Deep in the Peruvian Amazon rainforest, black copal resin —known locally as <em>copal negro</em>— has been treasured for centuries as a sacred incense and aromatic gem. Traditionally used by indigenous communities to connect with the divine, its earthy, balsamic aroma creates a powerful link between body, spirit, and nature.",
+      "paragraph2": "Harvested with respect for the forest, Amazonian black copal is a solid plant resin that hardens over time inside the bark of native trees. When burned, it transforms into a dense, white smoke used in spiritual ceremonies, meditation, and energy cleansing rituals across the world.",
+      "bullet1": "100% natural and sustainably harvested in the Peruvian Amazon",
+      "bullet2": "Revered for its purifying and grounding properties",
+      "bullet3": "Unique aroma profile: earthy, resinous, slightly balsamic",
+      "bullet4": "Key ingredient in incense, smudge blends, and aromatherapy",
+      "cta_text": "Discover Black Copal",
+      "cta_aria": "Discover Black Copal Resin",
+      "image_alt": "Amazonian black copal resin held in hands, sacred aromatic gem from Peru"
+    },
+    "origin": {
+      "practices_intro": "We follow strict sustainable forestry practices:"
+    },
+    "products": {
+      "overlay_premium": "Premium Quality",
+      "overlay_serfor": "SERFOR Certified"
+    },
+    "contact": {
+      "title": "Reach out me",
+      "subtitle": "Contact"
+    }
+  },
+  "footer": {
+    "name": "Munay Ki Perú SAC",
+    "address": "Jirón Cdad. Real 269, Santiago de Surco"
+  }
+}
