@@ -36,7 +36,7 @@ const Products = ({ data }) => {
             >
               <div className="product-image">
                 <img 
-                  src={product.image || '/images/copal-default.jpg'} 
+                  src={product.image || '/images/copal-default.webp'} 
                   alt={product.imageAlt || product.title}
                   loading="lazy"
                 />
