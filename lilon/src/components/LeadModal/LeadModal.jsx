@@ -52,6 +52,7 @@ const LeadModal = ({ isOpen, onClose }) => {
       style={{
         display: isOpen ? 'flex' : 'none',
         opacity: isOpen ? 1 : 0,
+        pointerEvents: isOpen ? 'auto' : 'none',
         transition: 'opacity 0.2s ease-in-out',
       }}
     >
