@@ -2,53 +2,11 @@ import PropTypes from "prop-types"
 import { Icon } from "@iconify/react";
 import SectionHeading from "../SectionHeading/SectionHeading";
 import { useI18n } from "../../i18n/I18nProvider";
-import { useState } from "react";
-
 
 const Contact = ({ data }) => {
-  const { contactInfo, contactForm } = data;
+  const { contactInfo } = data;
   const { t } = useI18n();
 
-  const [loading, setLoading] = useState(false);
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: '',
-  });
-
-  // Handler for input field changes
-  const handleInputChange = event => {
-    const { name, value } = event.target;
-    setFormData(prevFormData => ({
-      ...prevFormData,
-      [name]: value,
-    }));
-  };
-
-  const onSubmit = async (event) => {
-    event.preventDefault();
-    setLoading(true);
-    const formData = new FormData(event.target);
-    formData.append("access_key", "fcc74231-656a-425b-a54f-aff38354fadb");
-
-    const object = Object.fromEntries(formData);
-    const json = JSON.stringify(object);
-
-    const res = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json"
-      },
-      body: json
-    }).then((res) => res.json());
-
-    if (res.success) {
-      setFormData({ name: "", email: "", subject: "", message: "" });
-      setLoading(false)
-    }
-  };
   return (
     <section
       id="contact"
@@ -99,7 +57,5 @@ const Contact = ({ data }) => {
 Contact.propTypes = {
   data: PropTypes.object
 }
-
-
 
 export default Contact;
