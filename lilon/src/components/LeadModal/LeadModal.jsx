@@ -169,57 +169,18 @@ const LeadModal = ({ isOpen, onClose }) => {
     }
   };
 
-  // Objeto de estilos minimalistas solicitado
-  const inputStyle = {
-    width: '100%',
-    padding: '12px 0',
-    marginBottom: '20px',
-    border: 'none',
-    borderBottom: '1px solid #9a948e',
-    backgroundColor: 'transparent',
-    color: '#9a948e',
-    fontSize: '15px',
-    outline: 'none',
-    fontFamily: 'inherit',
-    fontWeight: 'normal'
-  };
-
   return (
     <div
-      className="lead-modal-overlay"
+      className={`lead-modal-overlay ${isOpen ? 'is-open' : ''}`}
       onClick={handleBackdropClick}
-      style={{
-        display: isOpen ? 'flex' : 'none',
-        opacity: isOpen ? 1 : 0,
-        pointerEvents: isOpen ? 'auto' : 'none',
-        transition: 'opacity 0.2s ease-in-out',
-        position: 'fixed',
-        top: 0, left: 0, right: 0, bottom: 0,
-        backgroundColor: 'rgba(0,0,0,0.6)',
-        justifyContent: 'center',
-        alignItems: 'center',
-        zIndex: 9999
-      }}
     >
-      <div 
-        className="lead-modal-container" 
-        style={{ 
-          padding: '40px', 
-          backgroundColor: '#fff', 
-          borderRadius: '12px', 
-          maxWidth: '550px', 
-          width: '90%', 
-          maxHeight: '90vh', 
-          overflowY: 'auto' 
-        }}
-      >
-        <div className="lead-modal-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '25px' }}>
-          <h3 style={{ margin: 0, color: '#333', fontSize: '24px', fontWeight: 'bold' }}>Contact Us</h3>
+      <div className="lead-modal-container">
+        <div className="lead-modal-header">
+          <h3>Contact Us</h3>
           <button 
             className="lead-modal-close" 
             onClick={onClose}
             aria-label="Close modal"
-            style={{ background: 'none', border: 'none', fontSize: '28px', cursor: 'pointer', color: '#9a948e', padding: 0, lineHeight: 1 }}
           >
             ×
           </button>
@@ -227,66 +188,52 @@ const LeadModal = ({ isOpen, onClose }) => {
         
         <div className="lead-modal-content">
           {status.success && (
-            <div style={{ padding: '15px', backgroundColor: '#d4edda', color: '#155724', borderRadius: '4px', marginBottom: '20px', textAlign: 'center', border: '1px solid #c3e6cb' }}>
+            <div className="status-message success">
               Thank you! Your message has been sent successfully.
             </div>
           )}
           
           {status.error && (
-            <div style={{ padding: '15px', backgroundColor: '#f8d7da', color: '#721c24', borderRadius: '4px', marginBottom: '20px', textAlign: 'center', border: '1px solid #f5c6cb' }}>
+            <div className="status-message error">
               {status.error}
             </div>
           )}
 
           <form onSubmit={handleSubmit} style={{ display: status.success ? 'none' : 'block' }}>
-            <div style={{ display: 'flex', gap: '15px' }}>
-              <input type="text" name="first_name" placeholder="First Name *" required value={formData.first_name} onChange={handleChange} style={inputStyle} />
-              <input type="text" name="last_name" placeholder="Last Name" value={formData.last_name} onChange={handleChange} style={inputStyle} />
+            <div className="form-row">
+              <input type="text" name="first_name" placeholder="First Name *" required value={formData.first_name} onChange={handleChange} />
+              <input type="text" name="last_name" placeholder="Last Name" value={formData.last_name} onChange={handleChange} />
             </div>
             
-            <input type="email" name="email" placeholder="Email *" required value={formData.email} onChange={handleChange} style={inputStyle} />
-            <input type="tel" name="phone" placeholder="Phone" value={formData.phone} onChange={handleChange} style={inputStyle} />
+            <input type="email" name="email" placeholder="Email *" required value={formData.email} onChange={handleChange} />
+            <input type="tel" name="phone" placeholder="Phone" value={formData.phone} onChange={handleChange} />
             
-            <textarea name="message" placeholder="Message *" rows="3" required value={formData.message} onChange={handleChange} style={{ ...inputStyle, resize: 'none' }}></textarea>
+            <textarea name="message" placeholder="Message *" rows="3" required value={formData.message} onChange={handleChange}></textarea>
             
-            {/* reCAPTCHA renderizado vía Referencia */}
-            <div style={{ margin: '20px 0', display: 'flex', justifyContent: 'center' }}>
+            {/* reCAPTCHA */}
+            <div className="captcha-container">
                <div ref={captchaRef}></div>
             </div>
 
-            {/* Checkbox de Consentimiento SMS */}
-            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '12px', marginBottom: '30px' }}>
+            {/* Checkbox SMS */}
+            <div className="sms-consent-wrapper">
               <input 
                 type="checkbox" 
                 id="sms_consent" 
                 name="sms_consent" 
                 checked={formData.sms_consent} 
                 onChange={handleChange} 
-                style={{ marginTop: '3px', cursor: 'pointer' }} 
               />
-              <label htmlFor="sms_consent" style={{ color: '#e0e0e0', fontSize: '13px', lineHeight: '1.5', fontWeight: 'normal', cursor: 'pointer', margin: 0 }}>
+              <label htmlFor="sms_consent">
                 I Consent to Receive SMS Notifications, Alerts & Occasional Marketing Communication from company. Message frequency varies. Message & data rates may apply.
               </label>
             </div>
 
-            {/* Botón Minimalista */}
+            {/* Botón */}
             <button 
               type="submit" 
+              className="submit-button"
               disabled={status.loading}
-              style={{
-                width: '100%',
-                padding: '16px',
-                backgroundColor: '#000',
-                color: '#fff',
-                border: 'none',
-                borderRadius: '50px',
-                fontSize: '16px',
-                fontWeight: 'normal',
-                cursor: status.loading ? 'not-allowed' : 'pointer',
-                transition: 'opacity 0.3s',
-                opacity: status.loading ? 0.7 : 1,
-                textTransform: 'lowercase'
-              }}
             >
               {status.loading ? 'sending...' : 'send message'}
             </button>
