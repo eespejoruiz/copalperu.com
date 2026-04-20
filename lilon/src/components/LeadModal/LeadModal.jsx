@@ -35,7 +35,7 @@ const LeadModal = ({ isOpen, onClose }) => {
             if (captchaRef.current && widgetIdRef.current === null) {
                try {
                   widgetIdRef.current = window.grecaptcha.render(captchaRef.current, {
-                     sitekey: '6Ld3massAAAAAHblsnwKq0FuYn5FjagIQAUJQfI9'
+                     sitekey: '6Ld5gassAAAAALBRofkCUY9gROxxWFL5FWi1nc-j'
                   });
                } catch (error) {
                   console.error('Error rendering reCAPTCHA:', error);
