@@ -6,7 +6,7 @@
   "heroData": {
     "title": "Welcome to<br />Amazonian <span>Copal...</span>",
     "subTitle": "<span>Natural Resins</span> from <span>Perú</span>",
-    "ImgLink": "/images/home-banner.png",
+    "ImgLink": "/images/home-banner.webp",
     "phone": "Let's talk on WhatsApp",
     "phoneNumber": "+51 937 189 509",
     "email": "contacto@palosantopremium.com",
@@ -28,7 +28,7 @@
   },
   "aboutData": {
     "aboutLeft": {
-      "ImgLink": "/images/about-banner.png",
+      "ImgLink": "/images/about-banner.webp",
       "name": "Copal Peru",
       "designation": "Natural Resins <span>from</span> Peru",
       "resumeCv": "/Resume.pdf"
@@ -76,14 +76,14 @@
         "title": "Cleansing & Protection",
         "heading": "Purifying atmosphere and energy reset",
         "triger": "One",
-        "imgLink": "/images/services-1.jpg",
+        "imgLink": "/images/services-1.webp",
         "text": "Create a purifying atmosphere and reset the energy of rooms, altars, and objects. Black copal smoke is traditionally used to clear stagnant energy and support protective intentions during ceremony and daily rituals."
       },
       {
         "title": "Meditation & Focus",
         "heading": "Deepen breath and center the mind",
         "triger": "Two",
-        "imgLink": "/images/services-2.jpg",
+        "imgLink": "/images/services-2.webp",
         "imgAlt": "Copal Supplier - Meditation & Focus with Amazonian Black Copal Resin",
         "imgTitle": "Copal Supplier - Natural Black Copal for Meditation",
         "text": "The slow, resinous burn helps you deepen breath, center the mind, and stay present. Many practitioners find increased clarity, grounded focus, and a calmer internal state for meditation and journaling."
@@ -92,7 +92,7 @@
         "title": "Aromatherapy & Atmosphere",
         "heading": "Warm, resinous profile for wellness spaces",
         "triger": "Three",
-        "imgLink": "/images/services-3.jpg",
+        "imgLink": "/images/services-3.webp",
         "text": "Its warm, resinous profile adds depth and character to wellness spaces. Burn alone or pair it with complementary botanicals to cultivate an intimate, sacred ambiance for gatherings and self-care."
       }
     ],
@@ -208,7 +208,7 @@
       "ariaLabel": "Read more about our ethical and sustainable harvesting of black copal"
     },
     "image": {
-      "src": "/images/slide2.png.webp",
+      "src": "/images/slide2.webp",
       "alt": "Ethically sourced, certified by SERFOR"
     }
   },
@@ -273,7 +273,7 @@
         "ctaText": "Request Oil Quote",
         "ctaLink": "/wholesale",
         "ctaType": "quote",
-        "image": "/images/copal-essential-oil.jpg",
+        "image": "/images/copal-essential-oil.webp",
         "imageAlt": "Dropper bottle with black copal essential oil for aromatherapy"
       },
       {
@@ -288,7 +288,7 @@
         "ctaText": "Request Wholesale Quote",
         "ctaLink": "/wholesale",
         "ctaType": "quote",
-        "image": "/images/copal-wholesale.jpg",
+        "image": "/images/copal-wholesale.webp",
         "imageAlt": "Large quantities of black copal resin prepared for wholesale distribution"
       }
     ],
@@ -301,7 +301,7 @@
   },
   "portfolioData": [
     {
-      "ImgLink": "/images/services-1.jpg",
+      "ImgLink": "/images/services-1.webp",
       "subTitle": "UX case study",
       "title": "Processor Research",
       "link": "",
@@ -321,7 +321,7 @@
       ]
     },
     {
-      "ImgLink": "/images/services-2.jpg",
+      "ImgLink": "/images/services-2.webp",
       "subTitle": "UX case study",
       "title": "Artificial Research",
       "link": "",
@@ -341,7 +341,7 @@
       ]
     },
     {
-      "ImgLink": "/images/services-3.jpg",
+      "ImgLink": "/images/services-3.webp",
       "subTitle": "UX case study",
       "title": "Website Research",
       "link": "",
@@ -361,7 +361,7 @@
       ]
     },
     {
-      "ImgLink": "/images/services-4.jpg",
+      "ImgLink": "/images/services-4.webp",
       "subTitle": "UX case study",
       "title": "Robotics Research",
       "link": "",
@@ -383,7 +383,7 @@
   ],
   "blogData": [
     {
-      "ImgLink": "/images/blog-1.jpg",
+      "ImgLink": "/images/blog-1.webp",
       "date": "12 July, 2022",
       "delay": "700",
       "title": "12 unique example of portfolio websites",
@@ -403,7 +403,7 @@
       ]
     },
     {
-      "ImgLink": "/images/blog-2.jpg",
+      "ImgLink": "/images/blog-2.webp",
       "date": "11 July, 2022",
       "delay": "800",
       "title": "12 unique example of portfolio websites",
@@ -423,7 +423,7 @@
       ]
     },
     {
-      "ImgLink": "/images/blog-3.jpg",
+      "ImgLink": "/images/blog-3.webp",
       "date": "10 July, 2022",
       "delay": "900",
       "title": "12 unique example of portfolio websites",
@@ -443,7 +443,7 @@
       ]
     },
     {
-      "ImgLink": "/images/blog-4.jpg",
+      "ImgLink": "/images/blog-4.webp",
       "date": "10 July, 2022",
       "delay": "1000",
       "title": "12 unique example of portfolio websites",
@@ -484,25 +484,25 @@
       },
       "info": [
         {
-          "imgLink": "/images/avatar-1.jpg",
+          "imgLink": "/images/avatar-1.webp",
           "name": "Ema Watson",
           "designation": "Chief Executive Officer, Brazil",
           "text": "File storage made easy – including powerful features you won’t find anywhere else. Whether          you’re."
         },
         {
-          "imgLink": "/images/avatar-2.jpg",
+          "imgLink": "/images/avatar-2.webp",
           "name": "Ema Watson",
           "designation": "Chief Executive Officer, Brazil",
           "text": "File storage made easy – including powerful features you won’t find anywhere else. Whether          you’re."
         },
         {
-          "imgLink": "/images/avatar-1.jpg",
+          "imgLink": "/images/avatar-1.webp",
           "name": "Ema Watson",
           "designation": "Chief Executive Officer, Brazil",
           "text": "File storage made easy – including powerful features you won’t find anywhere else. Whether          you’re."
         },
         {
-          "imgLink": "/images/avatar-2.jpg",
+          "imgLink": "/images/avatar-2.webp",
           "name": "Ema Watson",
           "designation": "Chief Executive Officer, Brazil",
           "text": "File storage made easy – including powerful features you won’t find anywhere else. Whether          you’re."
@@ -536,27 +536,27 @@
       },
       "info": [
         {
-          "imgLink": "/images/brand-1.png",
+          "imgLink": "/images/brand-1.webp",
           "name": "Partner Brand 1"
         },
         {
-          "imgLink": "/images/brand-2.png",
+          "imgLink": "/images/brand-2.webp",
           "name": "Partner Brand 2"
         },
         {
-          "imgLink": "/images/brand-3.png",
+          "imgLink": "/images/brand-3.webp",
           "name": "Partner Brand 3"
         },
         {
-          "imgLink": "/images/brand-4.png",
+          "imgLink": "/images/brand-4.webp",
           "name": "Partner Brand 4"
         },
         {
-          "imgLink": "/images/brand-1.png",
+          "imgLink": "/images/brand-1.webp",
           "name": "Partner Brand 1"
         },
         {
-          "imgLink": "/images/brand-2.png",
+          "imgLink": "/images/brand-2.webp",
           "name": "Partner Brand 2"
         }
       ]
@@ -587,7 +587,7 @@
     }
   },
   "footerData": {
-    "ImgLink": "/images/about-banner.png",
+    "ImgLink": "/images/about-banner.webp",
     "name": "Munay Ki Perú SAC",
     "address": "Jirón Cdad. Real 269, Santiago de Surco",
     "websiteLinks": [

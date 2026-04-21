@@ -21,14 +21,19 @@ const Header = ({ data }) => {
 
   const [mobileToggle, setMobileToggle] = useState(false);
 
-  const handleMobileToggle = () => {
+  const handleMobileToggle = (e) => {
+    e?.stopPropagation?.();
     setMobileToggle(!mobileToggle);
+  };
+
+  const handleNavClick = () => {
+    setMobileToggle(false);
   };
 
   return (
     <header>
       {/* Mob header */}
-      <div className="mob-header" onClick={handleMobileToggle}>
+      <div className="mob-header">
         <div className="mob-h-left">
           <Link className="navbar-brand" to="/">
             <img className="logo-dark" title="Copal Peru" alt="Copal Peru Logo" src={logoDark} />
@@ -36,7 +41,7 @@ const Header = ({ data }) => {
           </Link>
         </div>
         <div className="mob-h-right">
-          <button className="toggler-menu">
+          <button className="toggler-menu" onClick={handleMobileToggle}>
             <span />
           </button>
         </div>

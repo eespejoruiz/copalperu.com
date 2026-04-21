@@ -52,7 +52,7 @@
       "ariaLabel": "Lee más sobre nuestra cosecha ética y sostenible del copal negro"
     },
     "image": {
-      "src": "/images/slide2.png.webp",
+      "src": "/images/slide2.webp",
       "alt": "Origen ético, certificado por SERFOR"
     }
   },
@@ -117,7 +117,7 @@
         "ctaText": "Solicitar Cotización de Aceite",
         "ctaLink": "/wholesale",
         "ctaType": "quote",
-        "image": "/images/copal-essential-oil.jpg",
+        "image": "/images/copal-essential-oil.webp",
         "imageAlt": "Gotero con aceite esencial de copal negro para aromaterapia"
       },
       {
@@ -132,7 +132,7 @@
         "ctaText": "Solicitar Cotización Mayorista",
         "ctaLink": "/wholesale",
         "ctaType": "quote",
-        "image": "/images/copal-wholesale.jpg",
+        "image": "/images/copal-wholesale.webp",
         "imageAlt": "Grandes cantidades de resina de copal negro preparadas para distribución mayorista"
       }
     ],
@@ -146,7 +146,7 @@
   "heroData": {
     "title": "Bienvenido al<br />Copal <span>Amazónico</span>",
     "subTitle": "<span>Resinas Naturales</span> del <span>Perú</span>",
-    "ImgLink": "/images/home-banner.png",
+    "ImgLink": "/images/home-banner.webp",
     "phone": "Hablemos por WhatsApp",
     "phoneNumber": "+51 937 189 509",
     "email": "contacto@palosantopremium.com",
@@ -165,14 +165,14 @@
         "title": "Limpieza y Protección",
         "heading": "Purificar el ambiente y reiniciar la energía",
         "triger": "One",
-        "imgLink": "/images/services-1.jpg",
+        "imgLink": "/images/services-1.webp",
         "text": "Crea un ambiente purificador y reinicia la energía de habitaciones, altares y objetos. El humo del copal negro se usa tradicionalmente para limpiar energías estancadas y apoyar intenciones de protección durante ceremonias y rituales diarios."
       },
       {
         "title": "Meditación y Enfoque",
         "heading": "Profundiza la respiración y centra la mente",
         "triger": "Two",
-        "imgLink": "/images/services-2.jpg",
+        "imgLink": "/images/services-2.webp",
         "imgAlt": "Proveedor de Copal - Meditación y Enfoque con Resina de Copal Negro Amazónico",
         "imgTitle": "Proveedor de Copal - Copal Negro Natural para Meditación",
         "text": "Su combustión lenta y resinosa ayuda a profundizar la respiración, centrar la mente y mantener la presencia. Muchos practicantes encuentran mayor claridad, enfoque arraigado y un estado interno más calmado para meditar y escribir."
@@ -181,7 +181,7 @@
         "title": "Aromaterapia y Ambiente",
         "heading": "Perfil cálido y resinoso para espacios de bienestar",
         "triger": "Three",
-        "imgLink": "/images/services-3.jpg",
+        "imgLink": "/images/services-3.webp",
         "text": "Su perfil cálido y resinoso aporta profundidad y carácter a espacios de bienestar. Quémalo solo o combínalo con botánicos complementarios para cultivar una atmósfera íntima y sagrada en reuniones y autocuidado."
       }
     ],
@@ -278,7 +278,7 @@
     ]
   },
   "footerData": {
-    "ImgLink": "/images/about-banner.png",
+    "ImgLink": "/images/about-banner.webp",
     "name": "Munay Ki Perú SAC",
     "address": "Jirón Cdad. Real 269, Santiago de Surco",
     "websiteLinks": [

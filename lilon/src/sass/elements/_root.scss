@@ -16,5 +16,13 @@
 }
 
 [data-bs-theme=dark] {
-	
+	--px-theme:	#{$px-theme};
+	--px-theme-2:	#{$px-theme-2};
+	--px-dark:	#{$px-dark};
+	--px-dark-rgb:	0,0,0;
+
+	--px-text:	#{$px-text};
+	--px-heading:	#{$px-heading};
+	--px-bg:	#{$px-bg};
+	--px-dark:	#{$px-dark};
 }

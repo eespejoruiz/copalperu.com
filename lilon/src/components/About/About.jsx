@@ -19,7 +19,7 @@ const About = ({ data }) => {
           <div className="col-lg-6">
             <div className="about-image" data-aos="fade-right" data-aos-duration="400" data-aos-delay="150">
               <img 
-                src="/images/home-banner.png" 
+                src="/images/home-banner.webp" 
                 alt={t('sections.about.image_alt')}
                 className="img-fluid rounded"
               />
