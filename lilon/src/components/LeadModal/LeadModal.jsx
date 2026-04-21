@@ -38,7 +38,7 @@ const LeadModal = ({ isOpen, onClose }) => {
                      sitekey: '6Ld5gassAAAAALBRofkCUY9gROxxWFL5FWi1nc-j'
                   });
                } catch (error) {
-                  console.error('Error rendering reCAPTCHA:', error);
+                  console.error('Error rendering reCAPTCHA: ', error);
                }
             }
          } else {
