@@ -1157,6 +1157,14 @@ blockquote {
       object-fit: cover;
       transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     }
+  }
+
+  .product-card:first-child .product-image {
+    background: #ffffff;
+
+    img {
+      object-fit: contain;
+    }
 
     .product-overlay {
       position: absolute;
