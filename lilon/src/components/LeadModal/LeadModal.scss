@@ -89,6 +89,114 @@
   @media (max-width: 768px) {
     padding: 25px;
   }
+
+  .status-message {
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px solid transparent;
+
+    &.success {
+      background-color: #d4edda;
+      color: #155724;
+      border-color: #c3e6cb;
+    }
+
+    &.error {
+      background-color: #f8d7da;
+      color: #721c24;
+      border-color: #f5c6cb;
+    }
+  }
+
+  form {
+    .form-row {
+      display: flex;
+      gap: 15px;
+
+      @media (max-width: 480px) {
+        flex-direction: column;
+        gap: 0;
+      }
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+      width: 100%;
+      padding: 12px 0;
+      margin-bottom: 20px;
+      border: none;
+      border-bottom: 1px solid #9a948e;
+      background-color: transparent;
+      color: #9a948e;
+      font-size: 15px;
+      outline: none;
+      font-family: inherit;
+      font-weight: normal;
+
+      &::placeholder {
+        color: #9a948e;
+        opacity: 0.7;
+      }
+    }
+
+    textarea {
+      resize: none;
+    }
+
+    .captcha-container {
+      margin: 20px 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    .sms-consent-wrapper {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      margin-bottom: 30px;
+
+      input[type="checkbox"] {
+        margin-top: 3px;
+        cursor: pointer;
+      }
+
+      label {
+        color: #9a948e;
+        font-size: 13px;
+        line-height: 1.5;
+        font-weight: normal;
+        cursor: pointer;
+        margin: 0;
+      }
+    }
+
+    .submit-button {
+      width: 100%;
+      padding: 16px;
+      background-color: #000;
+      color: #fff;
+      border: none;
+      border-radius: 50px;
+      font-size: 16px;
+      font-weight: normal;
+      cursor: pointer;
+      transition: opacity 0.3s;
+      text-transform: lowercase;
+
+      &:disabled {
+        cursor: not-allowed;
+        opacity: 0.7;
+      }
+
+      &:hover:not(:disabled) {
+        opacity: 0.85;
+      }
+    }
+  }
 }
 
 // Animations
