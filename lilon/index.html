@@ -6,6 +6,49 @@
   <link rel="icon" type="image/svg+xml" href="/images/logo.svg" />
   <link rel="apple-touch-icon" href="/images/logo.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "xv2lu1zuib");
+  </script>
+  <!-- Lead-leakage tracking: tags the contact page and fires Clarity custom
+       events (usable as session/heatmap filters) for lead-intent actions.
+       Framework-agnostic delegated listeners; no per-component wiring. -->
+  <script type="text/javascript">
+    (function () {
+      function clv(){ return window.clarity; }
+      function ev(name){ try { if (clv()) clv()('event', name); } catch (e) {} }
+      function tag(k, v){ try { if (clv()) clv()('set', k, String(v)); } catch (e) {} }
+      function markContact(){
+        if (/contact|contacto/i.test(location.pathname + location.hash)) tag('page_type', 'contact');
+      }
+      markContact();
+      window.addEventListener('hashchange', markContact);
+      document.addEventListener('click', function (e) {
+        var t = e.target;
+        var flagged = t && t.closest ? t.closest('[data-clarity-event]') : null;
+        if (flagged) { ev(flagged.getAttribute('data-clarity-event')); return; }
+        var a = t && t.closest ? t.closest('a') : null;
+        if (!a) return;
+        var h = (a.getAttribute('href') || '').toLowerCase();
+        if (h.indexOf('mailto:') === 0) ev('lead_email_click');
+        else if (h.indexOf('tel:') === 0) ev('lead_phone_click');
+        else if (/wa\.me|api\.whatsapp|whatsapp/.test(h)) ev('lead_whatsapp_click');
+      }, true);
+      var formStarted = false;
+      document.addEventListener('focusin', function (e) {
+        if (formStarted) return;
+        var el = e.target;
+        if (el && /^(input|textarea|select)$/i.test(el.tagName)) { formStarted = true; ev('lead_form_start'); }
+      }, true);
+      document.addEventListener('submit', function () { ev('lead_form_submit'); }, true);
+    })();
+  </script>
+
   <!-- Preconnect/DNS-Prefetch para LeadConnector (link.up-sells.com) -->
   <link rel="preconnect" href="https://link.up-sells.com" crossorigin>
   <link rel="dns-prefetch" href="//link.up-sells.com">
