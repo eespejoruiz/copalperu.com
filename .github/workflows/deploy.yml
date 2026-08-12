@@ -1,38 +1,33 @@
-name: Deploy to SiteGround
+name: Build & deploy (GHCR + VPS)
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
+    permissions:
+      contents: read
+      packages: write
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v4
+      - name: Login GHCR
+        uses: docker/login-action@v3
         with:
-          node-version: '24'
-
-      - name: Install Dependencies
-        working-directory: ./lilon
-        run: npm install
-
-      - name: Build Project
-        working-directory: ./lilon
-        run: npm run build
-
-      - name: Sync files via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Build & push
+        uses: docker/build-push-action@v6
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./lilon/dist/
-          server-dir: /public_html/
+          context: .
+          push: true
+          tags: |
+            ghcr.io/eespejoruiz/copalperu:latest
+            ghcr.io/eespejoruiz/copalperu:${{ github.sha }}
