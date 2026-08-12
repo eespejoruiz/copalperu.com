@@ -2,68 +2,43 @@ import { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import './LeadModal.scss';
 
+const FORM_URL = 'https://api-saas.selvagencia.com/api/v1/public/forms/copalperucom/view';
+
 const LeadModal = ({ isOpen, onClose }) => {
-  // Referencia al div donde inyectaremos el script del SaaS
-  const formContainerRef = useRef(null);
+  const iframeRef = useRef(null);
 
   useEffect(() => {
-    // Cerrar con tecla Escape
     const handleEscape = (event) => {
-      if (event.key === 'Escape') {
-        onClose();
+      if (event.key === 'Escape') onClose();
+    };
+
+    // Auto-resize del iframe según la altura que reporta el form (postMessage)
+    const handleMessage = (e) => {
+      if (
+        e.data &&
+        e.data.type === 'selva-form-height' &&
+        e.data.slug === 'copalperucom' &&
+        iframeRef.current
+      ) {
+        iframeRef.current.style.height = e.data.height + 'px';
       }
     };
 
     if (isOpen) {
       document.addEventListener('keydown', handleEscape);
-      document.body.style.overflow = 'hidden'; // Prevenir scroll de fondo
-
-      // 1. Inyectar el script del SaaS dinámicamente si el modal está abierto
-      if (formContainerRef.current && !formContainerRef.current.hasChildNodes()) {
-        const script = document.createElement('script');
-        script.src = 'https://api-saas.selvagencia.com/api/v1/public/forms/copalperucom/embed.js';
-        script.async = true;
-        formContainerRef.current.appendChild(script);
-
-        // 2. Geolocalización e Inyección del País (mismo método que usamos antes)
-        fetch('https://ipapi.co/json/')
-          .then(response => response.json())
-          .then(data => {
-            const countryName = data.country_name;
-            
-            const waitForForm = setInterval(() => {
-              const countryInput = document.querySelector('input[name="country"]');
-              if (countryInput) {
-                countryInput.value = countryName;
-                clearInterval(waitForForm);
-              }
-            }, 500);
-
-            setTimeout(() => clearInterval(waitForForm), 10000); // Stop after 10s
-          })
-          .catch(error => console.error("Error obteniendo ubicación:", error));
-      }
-
-    } else {
-      // 3. Limpieza: Vaciar el contenedor cuando se cierra el modal 
-      // para que vuelva a cargar limpio la próxima vez
-      if (formContainerRef.current) {
-        formContainerRef.current.innerHTML = '';
-      }
+      window.addEventListener('message', handleMessage);
+      document.body.style.overflow = 'hidden';
     }
 
-    // Cleanup del useEffect
     return () => {
       document.removeEventListener('keydown', handleEscape);
+      window.removeEventListener('message', handleMessage);
       document.body.style.overflow = 'unset';
     };
   }, [isOpen, onClose]);
 
-  // Cerrar al hacer clic fuera del modal
   const handleBackdropClick = (event) => {
-    if (event.target === event.currentTarget) {
-      onClose();
-    }
+    if (event.target === event.currentTarget) onClose();
   };
 
   return (
@@ -72,24 +47,35 @@ const LeadModal = ({ isOpen, onClose }) => {
       onClick={handleBackdropClick}
     >
       <div className="lead-modal-container">
-        
-        {/* Mantenemos el Header original con el botón de cerrar (X) */}
         <div className="lead-modal-header">
           <h3>Contact Us</h3>
-          <button 
-            className="lead-modal-close" 
+          <button
+            className="lead-modal-close"
             onClick={onClose}
             aria-label="Close modal"
           >
             ×
           </button>
         </div>
-        
+
         <div className="lead-modal-content">
-           {/* Contenedor desnudo: Aquí adentro se dibujará el formulario del SaaS */}
-           <div id="selva-form-copalperucom" ref={formContainerRef} className="saas-form-wrapper"></div>
+          {isOpen && (
+            <iframe
+              ref={iframeRef}
+              src={FORM_URL}
+              title="Copal Peru — Contacto"
+              loading="lazy"
+              allowTransparency="true"
+              style={{
+                width: '100%',
+                border: 'none',
+                minHeight: '520px',
+                borderRadius: '16px',
+                background: 'transparent',
+              }}
+            />
+          )}
         </div>
-        
       </div>
     </div>
   );
