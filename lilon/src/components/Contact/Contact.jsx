@@ -1,4 +1,5 @@
 import PropTypes from "prop-types"
+import { useEffect } from "react";
 import { Icon } from "@iconify/react";
 import SectionHeading from "../SectionHeading/SectionHeading";
 import { useI18n } from "../../i18n/I18nProvider";
@@ -6,6 +7,17 @@ import { useI18n } from "../../i18n/I18nProvider";
 const Contact = ({ data }) => {
   const { contactInfo } = data;
   const { t } = useI18n();
+
+  useEffect(() => {
+    const SRC = "https://api-saas.selvagencia.com/api/v1/public/forms/copalperucom/embed.js";
+    if (document.querySelector(`script[src="${SRC}"]`)) return;
+    const s = document.createElement("script");
+    s.src = SRC;
+    s.async = true;
+    const target = document.getElementById("selva-form-copalperucom");
+    if (target && target.parentNode) target.parentNode.insertBefore(s, target.nextSibling);
+    else document.body.appendChild(s);
+  }, []);
 
   return (
     <section
@@ -47,6 +59,12 @@ const Contact = ({ data }) => {
                 ))}
               </ul>
             </div>
+            <div
+              id="selva-form-copalperucom"
+              data-selva-form="copalperucom"
+              className="mt-5"
+              style={{ maxWidth: "640px", margin: "2.5rem auto 0" }}
+            ></div>
           </div>
         </div>
       </div>
