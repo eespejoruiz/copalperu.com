@@ -743,9 +743,9 @@
       "description": "How Copal Peru sustainably sources Amazonian black copal resin: traditional community collection, resin tapping without felling trees, SERFOR-authorized commercialization, and full traceability from the Peruvian Amazon to the world."
     },
     "hero": {
-      "eyebrow": "Our Commitment",
+      "eyebrow": "Ethical Sourcing",
       "title": "Sustainability & Ethical Sourcing",
-      "subtitle": "From the Peruvian Amazon to the world — harvested with respect for the forest and the communities who protect it.",
+      "subtitle": "From the Amazon, with respect — every batch of black copal carries a story of sustainability, traceability, and care for the forest and the communities who protect it.",
       "image": "/images/bg-origen.webp"
     },
     "intro": {
@@ -758,8 +758,8 @@
     "commitments": [
       {
         "icon": "mdi:tree",
-        "title": "No felling",
-        "text": "We source resin from living trees through traditional tapping. Trees keep growing and producing — the forest stays standing."
+        "title": "Zero deforestation",
+        "text": "We never fell trees for our copal. The resin is tapped from living, standing trees that keep growing season after season."
       },
       {
         "icon": "mdi:account-group",
@@ -768,8 +768,8 @@
       },
       {
         "icon": "mdi:check-circle",
-        "title": "Legal & traceable",
-        "text": "Our commercialization is authorized by SERFOR (Resolution N° 000418-2023). Every batch is traceable from origin to export."
+        "title": "Full legal compliance",
+        "text": "Our commercialization is authorized by SERFOR (Resolution N° 000418-2023). Sourcing and traceability documentation accompanies our shipments."
       },
       {
         "icon": "mdi:earth",
@@ -792,9 +792,9 @@
       "image": "/images/slide2.webp"
     },
     "certification": {
-      "title": "Legal sourcing & documentation",
-      "text": "Munay Ki Perú SAC operates a SERFOR-authorized commercialization and primary-transformation center (Administrative Resolution N° 000418-2023, code 15-LIM/AUT-CTP-2023-005). This means our copal is sourced, processed and traded through legally recognized channels, with documentation available for wholesale and export partners who require it.",
-      "note": "For B2B buyers we can provide the corresponding sourcing and commercialization documentation on request."
+      "title": "SERFOR authorization & traceability",
+      "text": "Munay Ki Perú SAC operates a SERFOR-authorized commercialization and primary-transformation center (Administrative Resolution N° 000418-2023, code 15-LIM/AUT-CTP-2023-005). Our black copal is sourced, processed and traded through legally recognized channels, with documentation available for wholesale and export partners — from the Amazon to your door.",
+      "note": "Want to learn more? Request our SERFOR authorization and traceability documentation."
     },
     "community": {
       "title": "Impact on the communities",
@@ -815,9 +815,9 @@
       ]
     },
     "cta": {
-      "title": "Partner with a sustainable supplier",
-      "text": "Whether you are a retailer, distributor or wellness brand, we can supply traceable Amazonian black copal at the volume you need.",
-      "buttonText": "Talk to our team"
+      "title": "Partner with a responsible supplier",
+      "text": "Whether you are a retailer, distributor or wellness brand, we can supply traceable Amazonian black copal — backed by SERFOR authorization and full documentation — at the volume you need.",
+      "buttonText": "Request documentation"
     }
   }
 }

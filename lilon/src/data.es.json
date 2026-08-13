@@ -420,9 +420,9 @@
       "description": "Cómo Copal Perú obtiene resina de copal negro amazónico de forma sostenible: recolección tradicional por comunidades, extracción de resina sin talar árboles, comercialización autorizada por SERFOR y trazabilidad completa desde la Amazonía peruana al mundo."
     },
     "hero": {
-      "eyebrow": "Nuestro Compromiso",
+      "eyebrow": "Origen Ético",
       "title": "Sostenibilidad y Origen Ético",
-      "subtitle": "Desde la Amazonía peruana hacia el mundo — recolectado con respeto por el bosque y por las comunidades que lo protegen.",
+      "subtitle": "Desde la Amazonía, con respeto — cada lote de copal negro lleva una historia de sostenibilidad, trazabilidad y cuidado por el bosque y las comunidades que lo protegen.",
       "image": "/images/bg-origen.webp"
     },
     "intro": {
@@ -435,8 +435,8 @@
     "commitments": [
       {
         "icon": "mdi:tree",
-        "title": "Sin tala",
-        "text": "Obtenemos la resina de árboles vivos mediante extracción tradicional. Los árboles siguen creciendo y produciendo — el bosque permanece en pie."
+        "title": "Cero deforestación",
+        "text": "Nunca talamos árboles para nuestro copal. La resina se extrae de árboles vivos y en pie que siguen creciendo temporada tras temporada."
       },
       {
         "icon": "mdi:account-group",
@@ -445,8 +445,8 @@
       },
       {
         "icon": "mdi:check-circle",
-        "title": "Legal y trazable",
-        "text": "Nuestra comercialización está autorizada por SERFOR (Resolución N° 000418-2023). Cada lote es trazable desde el origen hasta la exportación."
+        "title": "Cumplimiento legal total",
+        "text": "Nuestra comercialización está autorizada por SERFOR (Resolución N° 000418-2023). La documentación de origen y trazabilidad acompaña nuestros envíos."
       },
       {
         "icon": "mdi:earth",
@@ -469,9 +469,9 @@
       "image": "/images/slide2.webp"
     },
     "certification": {
-      "title": "Origen legal y documentación",
-      "text": "Munay Ki Perú SAC opera un centro de comercialización y transformación primaria autorizado por SERFOR (Resolución Administrativa N° 000418-2023, código 15-LIM/AUT-CTP-2023-005). Esto significa que nuestro copal se obtiene, procesa y comercializa por canales legalmente reconocidos, con documentación disponible para socios mayoristas y de exportación que la requieran.",
-      "note": "Para compradores B2B podemos entregar la documentación de origen y comercialización correspondiente bajo solicitud."
+      "title": "Autorización SERFOR y trazabilidad",
+      "text": "Munay Ki Perú SAC opera un centro de comercialización y transformación primaria autorizado por SERFOR (Resolución Administrativa N° 000418-2023, código 15-LIM/AUT-CTP-2023-005). Nuestro copal negro se obtiene, procesa y comercializa por canales legalmente reconocidos, con documentación disponible para socios mayoristas y de exportación — desde la Amazonía hasta tu puerta.",
+      "note": "¿Quieres saber más? Solicita nuestra autorización SERFOR y la documentación de trazabilidad."
     },
     "community": {
       "title": "Impacto en las comunidades",
@@ -492,9 +492,9 @@
       ]
     },
     "cta": {
-      "title": "Trabaja con un proveedor sostenible",
-      "text": "Seas minorista, distribuidor o marca de bienestar, podemos abastecerte de copal negro amazónico trazable en el volumen que necesites.",
-      "buttonText": "Habla con nuestro equipo"
+      "title": "Trabaja con un proveedor responsable",
+      "text": "Seas minorista, distribuidor o marca de bienestar, podemos abastecerte de copal negro amazónico trazable — respaldado por autorización SERFOR y documentación completa — en el volumen que necesites.",
+      "buttonText": "Solicitar documentación"
     }
   }
 }

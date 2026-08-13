@@ -1,6 +1,6 @@
 .sustainability-page {
-  --sus-green: #4b5d23;
-  --sus-green-dark: #2f3a16;
+  --sus-green: #6d7e30;
+  --sus-green-dark: #46521d;
   --sus-ink: #1f1f1f;
   --sus-muted: #f5f4ee;
   background: #fff;
@@ -61,6 +61,9 @@
 .sustainability-list { list-style: none; padding: 0; margin: 1.2rem 0 0; }
 .sustainability-item { display: flex; gap: .6rem; align-items: flex-start; margin-bottom: .7rem; font-size: 1rem; line-height: 1.5; }
 .sustainability-item .check-icon { color: var(--sus-green); font-size: 1.3rem; flex: 0 0 auto; margin-top: 2px; }
+.sustainability-page .sustainability-item,
+.sustainability-page .sustainability-item span,
+.sustainability-page .sustainability-item li { color: #2c2c2c; }
 
 .sus-cert {
   display: flex; gap: 26px; align-items: flex-start;
