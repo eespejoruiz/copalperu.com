@@ -226,7 +226,7 @@
           "Long-lasting aromatic experience"
         ],
         "ctaText": "Buy Now",
-        "ctaLink": "https://app.palosantopremium.com/product/dhoop-incense-munay-palo-santo-copal/",
+        "ctaLink": "https://palosantopremium.com/shop/dhoop-incense-munay-palo-santo-copal",
         "ctaType": "shop",
         "image": "/images/producto-min.webp",
         "imageAlt": "Copal incense with Palo Santo blend for spiritual ceremonies"
@@ -241,7 +241,7 @@
           "Ideal for spiritual practices and aromatherapy"
         ],
         "ctaText": "Buy Now",
-        "ctaLink": "https://app.palosantopremium.com/product/black-copal-resin-bulk/",
+        "ctaLink": "https://palosantopremium.com/shop/black-copal-resin-bulk",
         "ctaType": "shop",
         "image": "/images/copal-min.webp",
         "imageAlt": "Pure black copal resin from the Peruvian Amazon"
@@ -256,7 +256,7 @@
           "Unique aromatic profile for deep meditation"
         ],
         "ctaText": "Buy Now",
-        "ctaLink": "https://app.palosantopremium.com/product/copal-palo-santo-myrrh/",
+        "ctaLink": "https://palosantopremium.com/shop/copal-palo-santo-myrrh",
         "ctaType": "shop",
         "image": "/images/mirra-min.webp",
         "imageAlt": "Blend of black copal, Palo Santo and Myrrh resins"
@@ -736,5 +736,88 @@
         "ariaLabel": "Request wholesale pricing for black copal"
       }
     ]
+  },
+  "sustainabilityPage": {
+    "meta": {
+      "title": "Sustainability & Ethical Sourcing | Copal Peru",
+      "description": "How Copal Peru sustainably sources Amazonian black copal resin: traditional community collection, resin tapping without felling trees, SERFOR-authorized commercialization, and full traceability from the Peruvian Amazon to the world."
+    },
+    "hero": {
+      "eyebrow": "Our Commitment",
+      "title": "Sustainability & Ethical Sourcing",
+      "subtitle": "From the Peruvian Amazon to the world — harvested with respect for the forest and the communities who protect it.",
+      "image": "/images/bg-origen.webp"
+    },
+    "intro": {
+      "title": "Rooted in respect for the forest",
+      "paragraphs": [
+        "Since 2014, Munay Ki Perú SAC has worked hand in hand with Amazonian communities to bring authentic black copal resin to the world without compromising the ecosystem it comes from. Sustainability is not a label for us — it is the only way our supply chain can exist over the long term.",
+        "Black copal is a resin, not timber. It is collected from living trees through traditional tapping methods that let the tree continue to grow and produce for years. Nothing is clear-cut, and collection follows the natural rhythm of the forest."
+      ]
+    },
+    "commitments": [
+      {
+        "icon": "mdi:tree",
+        "title": "No felling",
+        "text": "We source resin from living trees through traditional tapping. Trees keep growing and producing — the forest stays standing."
+      },
+      {
+        "icon": "mdi:account-group",
+        "title": "Community-led collection",
+        "text": "Achuar and other Amazonian collectors gather the resin using ancestral, low-impact methods, with fair and direct trade."
+      },
+      {
+        "icon": "mdi:check-circle",
+        "title": "Legal & traceable",
+        "text": "Our commercialization is authorized by SERFOR (Resolution N° 000418-2023). Every batch is traceable from origin to export."
+      },
+      {
+        "icon": "mdi:earth",
+        "title": "Long-term stewardship",
+        "text": "By giving standing forest a fair economic value, sustainable copal trade helps communities protect it against deforestation."
+      }
+    ],
+    "harvest": {
+      "title": "How the resin is collected",
+      "paragraphs": [
+        "Collectors make small incisions in the bark of mature copal trees and gather the resin that naturally exudes. The tree seals the wound and continues to live and produce season after season.",
+        "Because the process is manual and selective, it creates steady income for families while keeping the forest intact — the opposite of extractive models that require cutting trees down."
+      ],
+      "points": [
+        "Manual, selective resin tapping — no machinery, no clear-cutting",
+        "Mature trees only; young trees are left to grow",
+        "Collection timed to the forest's natural cycles",
+        "Direct, fair relationships with collector families"
+      ],
+      "image": "/images/slide2.webp"
+    },
+    "certification": {
+      "title": "Legal sourcing & documentation",
+      "text": "Munay Ki Perú SAC operates a SERFOR-authorized commercialization and primary-transformation center (Administrative Resolution N° 000418-2023, code 15-LIM/AUT-CTP-2023-005). This means our copal is sourced, processed and traded through legally recognized channels, with documentation available for wholesale and export partners who require it.",
+      "note": "For B2B buyers we can provide the corresponding sourcing and commercialization documentation on request."
+    },
+    "community": {
+      "title": "Impact on the communities",
+      "text": "A fair, transparent copal trade turns the standing forest into a living income for the families who care for it. That economic incentive is one of the most effective tools against deforestation in the Amazon.",
+      "stats": [
+        {
+          "value": "2014",
+          "label": "Working with Amazonian communities since"
+        },
+        {
+          "value": "100%",
+          "label": "Resin from living, standing trees"
+        },
+        {
+          "value": "0",
+          "label": "Trees felled to produce our copal"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Partner with a sustainable supplier",
+      "text": "Whether you are a retailer, distributor or wellness brand, we can supply traceable Amazonian black copal at the volume you need.",
+      "buttonText": "Talk to our team"
+    }
   }
 }

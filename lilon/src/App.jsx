@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom';
 import Layout from './components/Layout/Layout';
 import FloatingChat from './components/FloatingChat/FloatingChat';
 import Home from './pages/Home';
+import Sustainability from './pages/Sustainability';
 import './sass/style.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
@@ -22,10 +23,12 @@ const App = () => {
           {/* English root */}
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
+            <Route path="sustainability" element={<Sustainability />} />
           </Route>
           {/* Spanish */}
           <Route path="/es" element={<Layout />}>
             <Route index element={<Home />} />
+            <Route path="sustainability" element={<Sustainability />} />
           </Route>
         </Routes>
         <FloatingChat />

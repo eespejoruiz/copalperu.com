@@ -4,11 +4,26 @@
     "intro": "Fundada en 2014 en Lima, Munay Ki Perú SAC es una empresa familiar nacida de un profundo camino espiritual andino-amazónico. Nuestra misión es compartir la riqueza de los recursos sagrados del Perú —como el copal negro— asegurando autenticidad, calidad premium y sostenibilidad en todo lo que ofrecemos.",
     "commitmentTitle": "Nuestro Compromiso",
     "commitmentPoints": [
-      { "text": "Alianza directa con comunidades Achuar en Iquitos, Perú.", "icon": "🤝" },
-      { "text": "Cosecha sostenible bajo planes de manejo forestal certificados.", "icon": "🌱" },
-      { "text": "Cero deforestación — la resina se recolecta sin dañar los árboles.", "icon": "🌍" },
-      { "text": "Promoción de la reforestación y uso responsable de recursos.", "icon": "🌳" },
-      { "text": "Abastecimiento 100% legal con permisos de exportación SERFOR.", "icon": "✅" }
+      {
+        "text": "Alianza directa con comunidades Achuar en Iquitos, Perú.",
+        "icon": "🤝"
+      },
+      {
+        "text": "Cosecha sostenible bajo planes de manejo forestal certificados.",
+        "icon": "🌱"
+      },
+      {
+        "text": "Cero deforestación — la resina se recolecta sin dañar los árboles.",
+        "icon": "🌍"
+      },
+      {
+        "text": "Promoción de la reforestación y uso responsable de recursos.",
+        "icon": "🌳"
+      },
+      {
+        "text": "Abastecimiento 100% legal con permisos de exportación SERFOR.",
+        "icon": "✅"
+      }
     ],
     "whyChooseTitle": "¿Por qué elegir Munay Ki?",
     "whyChooseIntro": "Somos más que un proveedor: somos guardianes de tradiciones amazónicas. Al elegirnos, apoyas:",
@@ -42,13 +57,25 @@
     "globalTitle": "De la Amazonía para el Mundo",
     "globalText": "Hoy, el copal negro amazónico trasciende fronteras, llevando la energía purificadora de la selva a hogares y centros espirituales del mundo. Nuestra resina ya es confiada en Alemania, Japón, Corea del Sur, Taiwán y EAU, donde su aroma y autenticidad inspiran prácticas espirituales y bienestar holístico.",
     "timeline": [
-      { "title": "Selva Amazónica", "description": "La resina de copal se forma naturalmente dentro de árboles nativos.", "icon": "mdi:tree" },
-      { "title": "Cosecha Comunitaria", "description": "Recolectores Achuar reúnen la resina de forma sostenible con métodos tradicionales.", "icon": "mdi:account-group" },
-      { "title": "Distribución Global", "description": "Del Perú para el mundo — distribución mayorista y retail.", "icon": "mdi:earth" }
+      {
+        "title": "Selva Amazónica",
+        "description": "La resina de copal se forma naturalmente dentro de árboles nativos.",
+        "icon": "mdi:tree"
+      },
+      {
+        "title": "Cosecha Comunitaria",
+        "description": "Recolectores Achuar reúnen la resina de forma sostenible con métodos tradicionales.",
+        "icon": "mdi:account-group"
+      },
+      {
+        "title": "Distribución Global",
+        "description": "Del Perú para el mundo — distribución mayorista y retail.",
+        "icon": "mdi:earth"
+      }
     ],
     "cta": {
       "text": "Explora Nuestras Prácticas de Sostenibilidad",
-      "link": "/sustainability",
+      "link": "/es/sustainability",
       "ariaLabel": "Lee más sobre nuestra cosecha ética y sostenible del copal negro"
     },
     "image": {
@@ -70,7 +97,7 @@
           "Experiencia aromática de larga duración"
         ],
         "ctaText": "Comprar",
-        "ctaLink": "https://app.palosantopremium.com/product/dhoop-incense-munay-palo-santo-copal/",
+        "ctaLink": "https://palosantopremium.com/shop/dhoop-incense-munay-palo-santo-copal",
         "ctaType": "shop",
         "image": "/images/producto-min.webp",
         "imageAlt": "Incienso de copal con mezcla de Palo Santo para ceremonias espirituales"
@@ -85,7 +112,7 @@
           "Ideal para prácticas espirituales y aromaterapia"
         ],
         "ctaText": "Comprar",
-        "ctaLink": "https://app.palosantopremium.com/product/black-copal-resin-bulk/",
+        "ctaLink": "https://palosantopremium.com/shop/black-copal-resin-bulk",
         "ctaType": "shop",
         "image": "/images/copal-min.webp",
         "imageAlt": "Resina de copal negro pura de la Amazonía peruana"
@@ -100,7 +127,7 @@
           "Perfil aromático único para meditación profunda"
         ],
         "ctaText": "Comprar",
-        "ctaLink": "https://app.palosantopremium.com/product/copal-palo-santo-myrrh/",
+        "ctaLink": "https://palosantopremium.com/shop/copal-palo-santo-myrrh",
         "ctaType": "shop",
         "image": "/images/mirra-min.webp",
         "imageAlt": "Mezcla de resinas de copal negro, Palo Santo y Mirra"
@@ -152,9 +179,18 @@
     "email": "contacto@palosantopremium.com",
     "btnText": "Descubre Nuestros Productos",
     "socialData": [
-      { "link": "https://www.facebook.com/profile.php?id=100069320327901", "icon": "facebook" },
-      { "link": "https://www.instagram.com/munay_kiperu/", "icon": "instagram" },
-      { "link": "https://www.linkedin.com/company/munay-ki-peru-palo-santo", "icon": "linkedin" }
+      {
+        "link": "https://www.facebook.com/profile.php?id=100069320327901",
+        "icon": "facebook"
+      },
+      {
+        "link": "https://www.instagram.com/munay_kiperu/",
+        "icon": "instagram"
+      },
+      {
+        "link": "https://www.linkedin.com/company/munay-ki-peru-palo-santo",
+        "icon": "linkedin"
+      }
     ]
   },
   "usesAndBenefitsData": {
@@ -246,35 +282,113 @@
     "peruVsMexico": {
       "title": "Copal del Perú vs. Copal de México",
       "intro": "Tanto Perú como México son reconocidos por sus resinas de copal, pero difieren en especies botánicas, perfiles aromáticos y usos culturales. Así se comparan:",
-      "leftColumn": { "title": "Copal Peruano (Amazónico)" },
-      "rightColumn": { "title": "Copal Mexicano" },
+      "leftColumn": {
+        "title": "Copal Peruano (Amazónico)"
+      },
+      "rightColumn": {
+        "title": "Copal Mexicano"
+      },
       "attributes": [
-        { "name": "Origen", "icon": "mdi:map-marker", "leftValue": "Recolectado en la Amazonía peruana (comunidades Achuar, Iquitos)", "rightValue": "Recolectado principalmente en Oaxaca y centro de México" },
-        { "name": "Especie", "icon": "mdi:leaf", "leftValue": "Variedades Protium y Bursera graveolens", "rightValue": "Principalmente Bursera bipinnata" },
-        { "name": "Aroma", "icon": "mdi:weather-windy", "leftValue": "Terroso, resinoso, balsámico, humo denso", "rightValue": "Dulce, cítrico, más ligero" },
-        { "name": "Usos", "icon": "mdi:hands-pray", "leftValue": "Limpieza espiritual, meditación, incienso al por mayor", "rightValue": "Rituales tradicionales, ofrendas del Día de Muertos" },
-        { "name": "Sostenibilidad", "icon": "mdi:shield-check", "leftValue": "Certificado, cosechado bajo planes forestales SERFOR", "rightValue": "A menudo de recolección silvestre, menos estandarizado" },
-        { "name": "Mercado", "icon": "mdi:earth", "leftValue": "Popular en bienestar, aromaterapia, mayorista global", "rightValue": "Fuerte en ceremonias culturales e incienso artesanal" }
+        {
+          "name": "Origen",
+          "icon": "mdi:map-marker",
+          "leftValue": "Recolectado en la Amazonía peruana (comunidades Achuar, Iquitos)",
+          "rightValue": "Recolectado principalmente en Oaxaca y centro de México"
+        },
+        {
+          "name": "Especie",
+          "icon": "mdi:leaf",
+          "leftValue": "Variedades Protium y Bursera graveolens",
+          "rightValue": "Principalmente Bursera bipinnata"
+        },
+        {
+          "name": "Aroma",
+          "icon": "mdi:weather-windy",
+          "leftValue": "Terroso, resinoso, balsámico, humo denso",
+          "rightValue": "Dulce, cítrico, más ligero"
+        },
+        {
+          "name": "Usos",
+          "icon": "mdi:hands-pray",
+          "leftValue": "Limpieza espiritual, meditación, incienso al por mayor",
+          "rightValue": "Rituales tradicionales, ofrendas del Día de Muertos"
+        },
+        {
+          "name": "Sostenibilidad",
+          "icon": "mdi:shield-check",
+          "leftValue": "Certificado, cosechado bajo planes forestales SERFOR",
+          "rightValue": "A menudo de recolección silvestre, menos estandarizado"
+        },
+        {
+          "name": "Mercado",
+          "icon": "mdi:earth",
+          "leftValue": "Popular en bienestar, aromaterapia, mayorista global",
+          "rightValue": "Fuerte en ceremonias culturales e incienso artesanal"
+        }
       ]
     },
     "blackVsWhite": {
       "title": "Copal Negro vs Copal Blanco",
       "intro": "Tanto el copal negro como el copal blanco son resinas sagradas, cada una con aromas, colores y usos rituales distintos.",
-      "leftColumn": { "title": "Copal Negro (Copal negro)" },
-      "rightColumn": { "title": "Copal Blanco (Copal blanco)" },
+      "leftColumn": {
+        "title": "Copal Negro (Copal negro)"
+      },
+      "rightColumn": {
+        "title": "Copal Blanco (Copal blanco)"
+      },
       "attributes": [
-        { "name": "Apariencia", "icon": "mdi:palette", "leftValue": "Marrón oscuro a negro, resina densa", "rightValue": "Pálido, dorado o blanco, resina más ligera" },
-        { "name": "Aroma", "icon": "mdi:weather-windy", "leftValue": "Profundo, terroso, balsámico, de arraigo", "rightValue": "Dulce, cítrico, elevador" },
-        { "name": "Humo", "icon": "mdi:smoke", "leftValue": "Humo blanco espeso y pesado", "rightValue": "Humo más ligero y delicado" },
-        { "name": "Usos", "icon": "mdi:hands-pray", "leftValue": "Limpieza energética, protección, rituales de arraigo", "rightValue": "Claridad, iluminación, elevar vibraciones" },
-        { "name": "Cosecha", "icon": "mdi:clock-time-four", "leftValue": "De resinas más antiguas, endurecidas por más tiempo", "rightValue": "De resinas más frescas, textura más suave" },
-        { "name": "Ideal para", "icon": "mdi:star", "leftValue": "Meditación, ceremonias intensas, protección del espacio", "rightValue": "Rituales diarios, ofrendas, meditación suave" }
+        {
+          "name": "Apariencia",
+          "icon": "mdi:palette",
+          "leftValue": "Marrón oscuro a negro, resina densa",
+          "rightValue": "Pálido, dorado o blanco, resina más ligera"
+        },
+        {
+          "name": "Aroma",
+          "icon": "mdi:weather-windy",
+          "leftValue": "Profundo, terroso, balsámico, de arraigo",
+          "rightValue": "Dulce, cítrico, elevador"
+        },
+        {
+          "name": "Humo",
+          "icon": "mdi:smoke",
+          "leftValue": "Humo blanco espeso y pesado",
+          "rightValue": "Humo más ligero y delicado"
+        },
+        {
+          "name": "Usos",
+          "icon": "mdi:hands-pray",
+          "leftValue": "Limpieza energética, protección, rituales de arraigo",
+          "rightValue": "Claridad, iluminación, elevar vibraciones"
+        },
+        {
+          "name": "Cosecha",
+          "icon": "mdi:clock-time-four",
+          "leftValue": "De resinas más antiguas, endurecidas por más tiempo",
+          "rightValue": "De resinas más frescas, textura más suave"
+        },
+        {
+          "name": "Ideal para",
+          "icon": "mdi:star",
+          "leftValue": "Meditación, ceremonias intensas, protección del espacio",
+          "rightValue": "Rituales diarios, ofrendas, meditación suave"
+        }
       ]
     },
     "closingText": "En Munay Ki Perú SAC, nos especializamos en Copal Negro Amazónico cosechado de manera sostenible en Perú, garantizando calidad auténtica para la práctica espiritual y la distribución mayorista.",
     "cta": [
-      { "text": "Comprar Copal Negro", "link": "https://wa.me/51937189509", "type": "btn-primary", "ariaLabel": "Compra nuestros productos premium de copal negro" },
-      { "text": "Solicitar Cotización Mayorista", "link": "/wholesale", "type": "btn-secondary", "ariaLabel": "Solicitar precios mayoristas de copal negro" }
+      {
+        "text": "Comprar Copal Negro",
+        "link": "https://wa.me/51937189509",
+        "type": "btn-primary",
+        "ariaLabel": "Compra nuestros productos premium de copal negro"
+      },
+      {
+        "text": "Solicitar Cotización Mayorista",
+        "link": "/wholesale",
+        "type": "btn-secondary",
+        "ariaLabel": "Solicitar precios mayoristas de copal negro"
+      }
     ]
   },
   "footerData": {
@@ -282,10 +396,105 @@
     "name": "Munay Ki Perú SAC",
     "address": "Jirón Cdad. Real 269, Santiago de Surco",
     "websiteLinks": [
-      { "name": "Palo santo peruano", "url": "https://palosantopremium.com/en" },
-      { "name": "Shaman Dealer", "url": "https://shamandealer.com/" },
-      { "name": "Munay ki Peru", "url": "https://munayperu.pe/" },
-      { "name": "Mapacho Perú", "url": "https://mapachoperu.com/" }
+      {
+        "name": "Palo santo peruano",
+        "url": "https://palosantopremium.com/en"
+      },
+      {
+        "name": "Shaman Dealer",
+        "url": "https://shamandealer.com/"
+      },
+      {
+        "name": "Munay ki Peru",
+        "url": "https://munayperu.pe/"
+      },
+      {
+        "name": "Mapacho Perú",
+        "url": "https://mapachoperu.com/"
+      }
     ]
+  },
+  "sustainabilityPage": {
+    "meta": {
+      "title": "Sostenibilidad y Origen Ético | Copal Perú",
+      "description": "Cómo Copal Perú obtiene resina de copal negro amazónico de forma sostenible: recolección tradicional por comunidades, extracción de resina sin talar árboles, comercialización autorizada por SERFOR y trazabilidad completa desde la Amazonía peruana al mundo."
+    },
+    "hero": {
+      "eyebrow": "Nuestro Compromiso",
+      "title": "Sostenibilidad y Origen Ético",
+      "subtitle": "Desde la Amazonía peruana hacia el mundo — recolectado con respeto por el bosque y por las comunidades que lo protegen.",
+      "image": "/images/bg-origen.webp"
+    },
+    "intro": {
+      "title": "Enraizados en el respeto por el bosque",
+      "paragraphs": [
+        "Desde 2014, Munay Ki Perú SAC trabaja de la mano con comunidades amazónicas para llevar copal negro auténtico al mundo sin comprometer el ecosistema del que proviene. La sostenibilidad no es una etiqueta para nosotros: es la única forma en que nuestra cadena de suministro puede existir a largo plazo.",
+        "El copal negro es una resina, no madera. Se recolecta de árboles vivos mediante métodos tradicionales de extracción que permiten que el árbol siga creciendo y produciendo durante años. Nada se tala, y la recolección sigue el ritmo natural del bosque."
+      ]
+    },
+    "commitments": [
+      {
+        "icon": "mdi:tree",
+        "title": "Sin tala",
+        "text": "Obtenemos la resina de árboles vivos mediante extracción tradicional. Los árboles siguen creciendo y produciendo — el bosque permanece en pie."
+      },
+      {
+        "icon": "mdi:account-group",
+        "title": "Recolección comunitaria",
+        "text": "Recolectores achuar y de otras comunidades amazónicas obtienen la resina con métodos ancestrales de bajo impacto y comercio justo y directo."
+      },
+      {
+        "icon": "mdi:check-circle",
+        "title": "Legal y trazable",
+        "text": "Nuestra comercialización está autorizada por SERFOR (Resolución N° 000418-2023). Cada lote es trazable desde el origen hasta la exportación."
+      },
+      {
+        "icon": "mdi:earth",
+        "title": "Cuidado a largo plazo",
+        "text": "Al darle valor económico al bosque en pie, el comercio sostenible de copal ayuda a las comunidades a protegerlo de la deforestación."
+      }
+    ],
+    "harvest": {
+      "title": "Cómo se recolecta la resina",
+      "paragraphs": [
+        "Los recolectores realizan pequeñas incisiones en la corteza de árboles de copal maduros y recogen la resina que exuda naturalmente. El árbol cierra la herida y continúa vivo y produciendo temporada tras temporada.",
+        "Al ser un proceso manual y selectivo, genera ingresos estables para las familias mientras mantiene el bosque intacto — lo opuesto a los modelos extractivos que requieren talar árboles."
+      ],
+      "points": [
+        "Extracción de resina manual y selectiva — sin maquinaria ni tala",
+        "Solo árboles maduros; los jóvenes se dejan crecer",
+        "Recolección ajustada a los ciclos naturales del bosque",
+        "Relaciones directas y justas con las familias recolectoras"
+      ],
+      "image": "/images/slide2.webp"
+    },
+    "certification": {
+      "title": "Origen legal y documentación",
+      "text": "Munay Ki Perú SAC opera un centro de comercialización y transformación primaria autorizado por SERFOR (Resolución Administrativa N° 000418-2023, código 15-LIM/AUT-CTP-2023-005). Esto significa que nuestro copal se obtiene, procesa y comercializa por canales legalmente reconocidos, con documentación disponible para socios mayoristas y de exportación que la requieran.",
+      "note": "Para compradores B2B podemos entregar la documentación de origen y comercialización correspondiente bajo solicitud."
+    },
+    "community": {
+      "title": "Impacto en las comunidades",
+      "text": "Un comercio de copal justo y transparente convierte el bosque en pie en un ingreso vivo para las familias que lo cuidan. Ese incentivo económico es una de las herramientas más eficaces contra la deforestación en la Amazonía.",
+      "stats": [
+        {
+          "value": "2014",
+          "label": "Trabajando con comunidades amazónicas desde"
+        },
+        {
+          "value": "100%",
+          "label": "Resina de árboles vivos y en pie"
+        },
+        {
+          "value": "0",
+          "label": "Árboles talados para producir nuestro copal"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Trabaja con un proveedor sostenible",
+      "text": "Seas minorista, distribuidor o marca de bienestar, podemos abastecerte de copal negro amazónico trazable en el volumen que necesites.",
+      "buttonText": "Habla con nuestro equipo"
+    }
   }
 }

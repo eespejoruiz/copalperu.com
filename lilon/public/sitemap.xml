@@ -19,4 +19,22 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://copalperu.com/es"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://copalperu.com/"/>
   </url>
+  <url>
+    <loc>https://copalperu.com/sustainability</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://copalperu.com/sustainability"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://copalperu.com/es/sustainability"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://copalperu.com/sustainability"/>
+  </url>
+  <url>
+    <loc>https://copalperu.com/es/sustainability</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://copalperu.com/sustainability"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://copalperu.com/es/sustainability"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://copalperu.com/sustainability"/>
+  </url>
 </urlset>
