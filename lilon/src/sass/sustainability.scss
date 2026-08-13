@@ -36,6 +36,8 @@
 }
 .sus-prose {
   max-width: 780px; margin: 0 auto;
+  color: #333;
+  font-size: 1.05rem; line-height: 1.75;
   p { font-size: 1.05rem; line-height: 1.75; color: #333; margin-bottom: 1rem; }
   &.text-center { text-align: center; }
 }
